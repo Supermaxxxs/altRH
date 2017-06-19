@@ -1,0 +1,45 @@
+
+.education-color, .education-colorhover:hover,.navbar-nav > li:hover > a,.navbar-nav > li.active > a,/*Arslan*/.education-fancy-title i,.education-service-grid ul li:hover .education-service-grid-wrap > i,
+.education-service-grid ul li:hover .education-readmore-btn,.education-modren-course figure a i,.education-comment li:hover a,.education-blog-classic figure a i,.thumb-list:hover .comment-reply-link,
+.education-blog-classic .classic-blog-padding:hover .education-readmore-btn,.education-account-heading,.education-create-account form input[type="submit"],.education-related-option li a:hover,
+.education-event-medium figure a i,.education-event-option li i,.education-simple-btn,.education-modern-gallery figure a i,.education-related-blog figure a i,.widget_cetagories ul li:hover a,
+.education-sidebar .widget_featured_courses ul li:hover figcaption h6 a,.education-blog-grid figure a i,.education-grid-option li:hover a,.education-grid-comments li:hover a,
+.education-blog-large figure a i,.education-blog-option li:hover a,.education-blog-medium figure a i,.education-about-services > span,.education-course-grid figure a i,
+.education-course-grid ul li:hover .education-course-grid-text h5 a,.education-course-list figure a i,.education-course-list ul li:hover .education-course-list-text h5 a,
+.education-course-detail-option li i,.education-course-outline > ul > li > .education-course-file i,.education-instructor-social li:hover a,.education-list-style-two li i,.education-event-gallery figure a i,
+.education-related-event figure > a i,.education-related-event ul li:hover .education-readmore-btn,.education-event-grid figure a i,.education-event-grid-text .education-classic-btn,
+.education-event-list figure a i,.education-event-list ul li:hover .education-event-list-text h5 a,.education-shop-detail-text > span,.education-shop-option li a:hover,
+.education-shop-grid figure a i,.education-shop-grid-text span,.education-shop-list figure a i,.education-shop-list-text > span,.education-shop-list ul li:hover .education-classic-btn,
+.education-Error-page h2,.education-Error-page p a,.education-contact-us ul li:hover i {
+    color: #3f51b5;
+}
+.education-bgcolor, .education-bgcolorhover:hover,.widget_gallery ul li a:before,.widget_gallery ul li a:after,/*Arslan*/.education-modren-course figure a:before,
+.education-modren-course ul li:hover .education-grid-wrap:after,.education-testimonial i,.education-blog-classic figure a:before,.education-blog-classic .slick-arrow:hover,
+.education-create-account form ul li label.submit-shape:before,.education-create-account form ul li label.submit-shape:after,.education-create-account form ul li label span:before,
+.education-create-account form ul li label span:after,.education-event-medium figure a:before,.education-event-medium ul li:hover .education-simple-btn,.education-counter ul li i,
+.education-modern-gallery figure a:before,.education-modern-gallery figure figcaption:before,.education-modern-gallery figure figcaption span,.education-modern-gallery figure figcaption h5,
+.education-newslatter-text h2,.education-newslatter-text form input[type="submit"],.education-thumb-heading time,blockquote i,.education-post-tags > a,.education-tags > a:hover,
+.education-prenxt-post ul li:hover .education-post-arrow,.education-section-heading h2:before,.education-section-heading h2:after,.education-related-blog figure a:before,
+.comment-respond form p label:before,.comment-respond form p label:after,.education-widget-heading h2:before,.education-widget-heading h2:after,.widget-rating-box:before,
+.education-sidebar .widget_featured_courses figure > a:before,.widget_calendar thead > tr > th,.education-blog-grid figure a:before,.education-blog ul li:hover .education-classic-btn,
+.education-classic-btn:before,.education-classic-btn:after,.education-pagination > ul > li > a:hover,.education-pagination > ul > li > span.current,.education-pagination > ul > li:hover > .previous:before,
+.education-pagination > ul > li:hover > .previous:after,.education-pagination > ul > li:hover > .next:after,.education-pagination > ul > li:hover > .next:before,
+.education-blog-large figure a:before,.education-blog-medium figure a:before,.education-team-grid-info,.education-team-grid-text,.education-course-grid figure a:before,
+.education-course-list figure a:before,.education-course-thumb figcaption:before,.education-course-thumb figcaption:after,.education-course-outline > ul > li > a.preview,
+.education-thumb-text:before,.education-thumb-text:after,.education-event-gallery figure > a:before,.education-related-event figure > a:before,.education-event-grid figure a:before,
+.education-event > ul > li:hover .education-classic-btn,.education-event-list figure span,.education-event-list figure a:before,.education-shop-tabs .nav-tabs > li.active > a,
+.education-shop-tabs .nav-tabs > li.active > a:hover,.education-shop-tabs .nav-tabs > li.active > a:focus,.education-shop-tabs .nav-tabs li a:before,.education-shop-tabs .nav-tabs .active a:before,
+.education-shop-tabs .nav-tabs li a:after,.education-shop-tabs .nav-tabs .active a:after,.education-shop-grid figure a:before,.education-shop-list figure a:before,
+.education-Error-page p a:before,.education-contact-us-form ul li label:after,.education-contact-us-form ul li label:before,.education-search-result form label:before,
+.education-search-result form label:after,.education-faq-page .panel-title a {
+    background-color: #3f51b5;
+}
+.education-bordercolor, .education-bordercolorhover:hover,.navbar-nav > li:hover > a,.navbar-nav > li.active > a,/*arslan*/.education-prenxt-post ul li:hover .education-post-arrow,
+.education-pagination > ul > li > a:hover,.education-pagination > ul > li > span.current {
+    border-color: #3f51b5;
+}
+
+.navbar-nav > li > a:before,.education-banner-caption span.banner-title:before {
+	border-top-color: #3f51b5;
+}
+.education-related-blog ul li:hover .education-related-blog-text:before,.education-shop-grid ul li:hover .education-shop-grid-text:before { border-bottom-color: #3f51b5;}

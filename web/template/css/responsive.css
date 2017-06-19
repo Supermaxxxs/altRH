@@ -1,0 +1,362 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 990px) {
+	.navbar { position: relative; }
+	.navbar-toggle { display: block;  background-color: #eee; margin: 30px 30px 13px; }
+	.navbar-collapse { padding: 0px 0px 0px 0px; width: 260px; background-color: #fff; box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.10); border: none; position: absolute; left: 0%; top: 100%; z-index: 9999; margin: 10px 0px 0px 0px; }
+	#education-header .collapse { display: none; } #education-header .collapse.in { display: block; } .education-thumbnail { margin-bottom: 0px; }
+	.navbar-nav > li:first-child > a { padding-left: 22px; }
+	.navbar-nav { margin: 0px; } .navbar-nav > li > a:before,.navbar-nav > li > a:after { display: none; }
+	.education-dropdown-menu { float: left; width: 100%; position: relative; opacity: 1; visibility: visible; box-shadow: none; }
+	.education-dropdown-menu,.education-megamenu {
+		-webkit-transform: translate(0px);
+		   -moz-transform: translate(0px);
+		    -ms-transform: translate(0px);
+		     -o-transform: translate(0px);
+		        transform: translate(0px);
+	}
+	.education-megamenu { float: left; min-width: 100%; position: relative; right: auto; top: auto; padding: 20px 8px 5px 8px; box-shadow: none; opacity: 1; visibility: visible; }
+	.education-megamenu [class*="col-md-"] { width: 100%; float: left; margin-bottom: 15px; }
+	.education-megamenu .row { margin: 0px; } .navbar-nav > li > a { float: left; width: 100%; padding: 20px 20px 10px 20px; }
+	.navbar-nav > li { width: 100%; padding: 0px 0px; }
+	.education-dropdown-menu .education-dropdown-menu { left: 0px;}
+	.navbar-nav > li > a { border-bottom: 2px solid #3f51b5;}
+	.education-banner-thumb { bottom: auto; top: 0px;}
+	.education-event > ul > li { float: left;}
+	/* Main Grid */
+	.education-main-content .col-md-4,.education-main-content .col-md-3 { float: none; display: inline-block; vertical-align: top; margin-right: -4px; width: 50%; }
+	.education-main-content .col-md-7,.education-main-content .col-md-5 { width: 100%; float: left; margin-bottom: 30px; }
+	.col-md-12 { float: left; width: 100%; }
+	/*banner*/
+	.education-userinfo { width: 55%;}
+	.education-banner-caption { display: none;}
+	/*content*/
+	.education-event-medium-text { width: 64%;}
+	.education-event-medium figure { width: 280px;}
+	.education-event-medium-text { margin: 74px 0 0 -31px;}
+	.education-modern-gallery figure figcaption span { margin: 0px 0px 190px;}
+	.education-gallery.education-modern-gallery ul li { width: 50%;}
+	.education-counter-img { background-position: center; background-size: cover;}
+	.education-blog-classic .slick-arrow { right: 30px;}
+	.education-blog-classic .slick-arrow-left.slick-arrow { right: 80px;}
+	.education-latest-news-heading:before { display: none;}
+	.education-service ul li { float: left; width: 50%;}
+	.education-rich-editor { width: 87%;}
+	.education-tags { width: 55%;}
+	.education-prev-post:before,.education-next-post:before { width: 94%;}
+	.education-blog-large-text { width: 87%;}
+	.education-blog > ul > li { float: left;}
+	.education-blog-medium-text { width: 63%; margin: 68px 0 0 -18px;}
+	.education-course-thumb figcaption { width: 90%;}
+	.education-course-grid-option { padding: 16px 0 17px 30px;}
+	.education-course-list-text { padding: 10px 15px;}
+	.education-course-list-text .star-rating { width: 23%; margin-bottom: 0px;}
+	.education-course-list-wrap .education-course-grid-option { padding: 8px 0 8px 30px;}
+	.education-thumb-text { width: 75%;}
+	.education-gallery.education-event-gallery ul li { float: left;}
+	.education-event-list-wrap .education-course-grid-option { padding: 16px 10px 17px 20px;}
+	.education-event-list-text span { margin: 0 0 10px;}
+	.education-event-list-text { padding: 15px 25px 14px 30px;}
+	.education-shop-detail-text { width: 50%;}
+	.education-shop-detail-text .star-rating { width: 24%; line-height: 25px;}
+	.education-shop-list-text .star-rating { width: 22%;}
+	.education-shop-list-text { padding: 10px 30px 25px 29px;}
+	.education-shop-list-text > span { margin: 0px 0px 8px;}
+	.education-parallax p { width: 80%;}
+	.education-about-image { display: none;}
+
+
+
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+	.navbar { position: relative; float: left; width: 100%; text-align: center;}
+	.navbar-toggle { display: inline-block;  background-color: #eee; margin: 30px 0px 25px 0px; float: none; }
+	.navbar-collapse { padding: 0px 0px 0px 0px; width: 260px; background-color: #fff; box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.10); border: none; position: absolute; left: 0%; top: 100%; z-index: 9999; margin: 10px 0px 0px 0px; }
+	#education-header .collapse { display: none; } #education-header .collapse.in { display: block; } .education-thumbnail { margin-bottom: 0px; }
+	.navbar-nav > li:first-child > a { padding-left: 22px; }
+	.navbar-nav { margin: 0px; } .navbar-nav > li > a:before,.navbar-nav > li > a:after { display: none; }
+	.education-dropdown-menu { float: left; width: 100%; position: relative; opacity: 1; visibility: visible; box-shadow: none; }
+	.education-dropdown-menu,.education-megamenu {
+		-webkit-transform: translate(0px);
+		   -moz-transform: translate(0px);
+		    -ms-transform: translate(0px);
+		     -o-transform: translate(0px);
+		        transform: translate(0px);
+	}
+	.education-megamenu { float: left; min-width: 100%; position: relative; right: auto; top: auto; padding: 20px 8px 5px 8px; box-shadow: none; opacity: 1; visibility: visible; }
+	.education-megamenu [class*="col-md-"] { width: 100%; float: left; margin-bottom: 15px; }
+	.education-megamenu .row { margin: 0px; } .navbar-nav > li > a { float: left; width: 100%; padding: 20px 20px 10px 20px; }
+	.navbar-nav > li { width: 100%; padding: 0px 0px; text-align: left;}
+	.education-dropdown-menu .education-dropdown-menu { left: 0px;}
+	/* Main Grid */
+	.education-main-content .col-md-4,.education-main-content .col-md-3{ float: none; display: inline-block; vertical-align: top; margin-right: -4px; width: 50%; }
+	.education-main-content .col-md-7,.education-main-content .col-md-5 { width: 100%; float: left; margin-bottom: 30px; }
+	.col-md-12 { float: left; width: 100%; }
+	/*header*/
+	.education-userinfo { text-align: center;}
+	.education-userinfo li { float: none; display: inline-block;}
+	.education-user-section { width: 100%; text-align: center;}
+	/*banner*/
+	.education-banner-caption { display: none;}
+	.education-top-strip { padding: 0px 0px 25px;}
+	.navbar-nav > li > a { border-bottom: 2px solid #3f51b5;}
+	.education-banner-thumb { bottom: auto; top: 0px;}
+	/*Content*/
+	.education-latest-news-heading:before { display: none;}
+	.education-event-medium figure { width: 100%;}
+	.education-event-medium-text { margin: 0px; width: 100%;}
+	.education-event > ul > li { float: left; width: 50%;}
+	.education-gallery.education-modern-gallery ul li { width: 50%;}
+	.education-modern-gallery figure figcaption span { margin: 0px 0px 115px;}
+	.education-modern-gallery figure figcaption { width: 94%;}
+	.education-social-network li { margin: 0px 15px 10px 0px;}
+	.education-blog-classic .slick-arrow { right: 30px;}
+	.education-blog-classic .slick-arrow-left.slick-arrow { right: 80px;}
+	.education-event-medium figure a i { margin-left: -25px;}
+	.education-modern-gallery figure figcaption h5 { padding-left: 12px;}
+	.education-newslatter-text form label:before,.education-newslatter-text form label:after { left: -144px;}
+	.education-subscribe-newsletter:before { left: -15px; border-left: 15px solid transparent;}
+	.education-subscribe-newsletter:after { right: -15px; border-right: 15px solid transparent;}
+	.education-user-section > li:first-child {
+		-webkit-transform: translateY(26px);
+		   -moz-transform: translateY(26px);
+		    -ms-transform: translateY(26px);
+		     -o-transform: translateY(26px);
+		        transform: translateY(26px);
+	}
+	.education-user-section li { display: inline-block; float: none;}
+	.education-counter-img { background-size: cover; background-position: center; overflow: hidden;}
+	.star-rating { width: 24%;}
+	.education-main-content .education-footer-widget .widget { width: 100%;}
+	.education-service ul li { float: left; width: 50%;}
+	.education-tags > a { margin-bottom: 5px;}
+	.education-prenxt-post ul li { width: 100%; margin-bottom: 20px;}
+	.education-prev-post:before,.education-next-post:before { width: 95%;}
+	.education-prev-post:after { right: 12px;}
+	.education-next-post:after { left: 12px;}
+	.comment-list .children { padding-left: 0px;}
+	.comment-list figure ~ .text-holder { float: left; margin: 0px; padding: 0px;}
+	.comment-list li figure { margin: 0px 0px 20px;}
+	.education-detail-option { width: 11.3333%; margin: 0px 10px 0px 0px;}
+	.education-rich-editor { width: 86%;}
+	.education-tags { width: 65%;}
+	.education-related-option li:before { right: -8px;}
+	.education-related-blog-text { padding: 22px 15px 20px;}
+	.education-grid-comments li:last-child { margin: 0px;}
+	.education-grid-comments { margin: 0px 0px 0px 13px;}
+	.education-pagination > ul > li { margin: 0 11px 0 0;}
+	.education-blog-large-text { width: 86%;}
+	.education-blog-medium-text { margin: 20px 0 0 -67px;}
+	.education-blog > ul > li { float: left;}
+	.education-course-thumb figcaption { width: 95%; padding: 19px 0 21px 15px;}
+	.education-course-thumb { padding: 65px 0px 0px;}
+	.education-list-style-one li { width: 100%;}
+	.education-course-outline > ul > li { float: left; padding: 15px 35px 15px 37px;}
+	.education-course-outline > ul.heading > li:first-child { padding: 16px 0 10px 42px;}
+	.education-course-outline > ul > li:first-child { padding: 0px;}
+	.education-course-thumb figcaption .star-rating { width: 20%;}
+	.education-course-instructor figure ~ .education-course-instructor-text { float: left; margin: 0px; padding: 0px;}
+	.education-course-grid-option { padding: 16px 0 17px 30px;}
+	.education-course-grid-text .star-rating { width: 45%;}
+	.education-course-list figure { width: 100%;}
+	.education-course-list figure ~ .education-course-list-wrap { float: left; margin: 0px;}
+	.education-course-list figure:before,.education-course-list figure:after { width: 51%; height: 20px;}
+	.education-course-list figure:before { left: 0px; right: auto; top: auto; bottom: -10px;}
+	.education-course-list figure:after { right: 0px; bottom: -10px;}
+	.education-course-list-text .star-rating { width: 19%;}
+	.education-course-list figure:before {
+		-webkit-transform: rotate(-4deg);
+		   -moz-transform: rotate(-4deg);
+		    -ms-transform: rotate(-4deg);
+		     -o-transform: rotate(-4deg);
+		        transform: rotate(-4deg);
+	}
+	.education-course-list figure:after {
+		-webkit-transform: rotate(4deg);
+		   -moz-transform: rotate(4deg);
+		    -ms-transform: rotate(4deg);
+		     -o-transform: rotate(4deg);
+		        transform: rotate(4deg);
+	}
+	.countdown-section { width: 50%;}
+	.education-event-thumb { padding: 50px 0px 0px; margin: 0px 0px 77px;}
+	.education-thumb-text { width: 94%;}
+	.education-gallery.education-event-gallery ul li { float: left;}
+	.education-event-list figure { width: 100%;}
+	.education-event-list figure ~ .education-event-list-wrap { margin: 0px; float: left; width: 100%;}
+	.education-event-list figure a:before { width: 100%; height: 6px; top: auto; bottom: 0px;}
+	.education-event-list ul li:hover figure a:before { height: 100%;}
+	.education-event-list figure:before { border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #3f51b5; border-top: none; margin: 0 -11px 0 0; right: 50%; top: auto; bottom: 6px;}
+	.education-event-list figure a i { top: auto; bottom: 10%; right: 50%; margin: 0 -25px -25px 0;}
+	.education-event-list ul li:hover figure a i { bottom: 50%;}
+	.education-event-list-text { padding: 24px 15px 19px;}
+	.education-search-result { padding: 59px 10px 47px 20px;}
+	.education-search-result form { width: 92%;}
+	.education-shopwrap figure { width: 358px;}
+	.education-shop-detail-text { width: 100%;}
+	.education-shop-detail-text { padding-left: 0px;}
+	.education-shop-detail-text .star-rating { width: 27%;}
+	.education-shop-grid-text .star-rating { width: 43%;}
+	.education-shop-list figure { width: 100%;}
+	.education-shop-list figure ~ .education-shop-list-text { margin: 0px; float: left; width: 100%;}
+	.education-shop-list figure a:before { width: 100%; height: 6px; top: auto; bottom: 0px;}
+	.education-shop-list ul li:hover figure a:before { height: 100%;}
+	.education-shop-list figure:before { border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #3f51b5; border-top: none; margin: 0 -11px 0 0; right: 50%; top: auto; bottom: 6px;}
+	.education-shop-list figure a i { top: auto; bottom: 10%; right: 50%; margin: 0 -25px -25px 0;}
+	.education-shop-list ul li:hover figure a i { bottom: 50%;}
+	.education-shop-list-text .star-rating { width: 42%;}
+	.loginmodal .modal-dialog { width: 100%; margin: 150px 0px 0px;}
+	.education-login-close { right: 0px;}
+	.education-parallax p { width: 100%;}
+	.education-parallax h2 { font-size: 28px;}
+	.education-about-image { display: none;}
+	.education-team-grid-text { padding: 39px 27px 26px;}
+	.education-team-grid figure figcaption { width: 91%;}
+	.education-comment-option { padding: 15px 23px 20px 20px;}
+	.education-event-list-text span { line-height: 1.4;}
+	.education-event-list-wrap .education-course-grid-option { padding: 16px 20px 14px;}
+	.education-event-list-wrap .education-course-grid-option li { margin: 0 5px 0 0;}
+	.education-search-result span { line-height: 1.3;}
+	.education-related-option li { margin: 0px 13px 0px 0px;}
+	.education-shop-list-text { padding: 24px 17px 25px;}
+	.education-shop.education-shop-list > ul > li { width: 50%;}
+
+
+}
+
+/* Media 300Px Start */
+@media (max-width: 480px) {
+	/*main grid*/
+	.education-main-content .col-md-4,.education-main-content .col-md-3,.education-main-content .col-md-6 { margin-right: 0px; width: 100%; }
+	/*main grid*/
+
+	/*Header*/
+	.education-userinfo li { margin-right: 0px; width: 100%; text-align: center; float: left;}
+	.education-userinfo li i { float: none; display: inline-block;}
+	.education-user-section > li { margin-left: 18px;}
+	/*content*/
+	.education-testimonial-full { background-size: cover;}
+	.education-gallery.education-modern-gallery ul li { width: 100%;}
+	.education-newslatter-text form { width: 97%;}
+	.education-latest-news-heading:before { display: block; top: auto; bottom: -40px; width: 80px; height: 40px; right: 0px;}
+	.education-blog-classic .slick-arrow { top: 108px; right: 15px;}
+	.education-blog-classic .slick-arrow-left.slick-arrow { right: 60px;}
+	.education-event > ul > li { width: 100%;}
+	.education-modern-gallery figure figcaption span { margin: 0px 0px 135px;}
+	.education-modern-gallery figure figcaption h5 { padding-left: 30px;}
+	.education-modern-gallery figure figcaption { width: 80%;}
+	.education-user-section > li:first-child {
+		-webkit-transform: translateY(0);
+		   -moz-transform: translateY(0);
+		    -ms-transform: translateY(0);
+		     -o-transform: translateY(0);
+		        transform: translateY(0);
+	}
+	.education-user-section li { float: left;}
+	.star-rating { width: 50%;}
+	.education-detail-option { width: 16.3333%; margin: 0px;}
+	.education-rich-editor { width: 83%;}
+	.education-tags { width: 100%;}
+	.comment-respond form p { width: 100%;}
+	.education-prev-post:before,.education-next-post:before { width: 91%;}
+	.education-related-blog-text { padding: 22px 22px 20px 30px;}
+	.education-related-option li { margin: 0px 22px 0px 0px;}
+	.education-related-option li:before { right: -12px;}
+	.education-grid-comments { margin: 0px 0px 0px 29px;}
+	.education-blog-large-text { width: 83%;}
+	.education-pagination > ul > li { margin: 0 8px 0 0;}
+	.education-blog-medium figure,.education-blog-medium-text { width: 100%; margin: 0px;}
+	.education-blog-medium figure a i { margin: -25px 0 0 -25px;}
+	.education-contact-us-form form ul li { width: 100%;}
+	.education-course-thumb figcaption .star-rating { width: 27%;}
+	.education-course-thumb { padding: 100px 0px 0px;}
+	.education-course-thumb figcaption { width: 100%;}
+	.education-course-grid-text .star-rating { width: 34%;}
+	.education-course-list-text .star-rating { width: 32%;}
+	.education-course-list figure:before {
+		-webkit-transform: rotate(-7deg);
+		   -moz-transform: rotate(-7deg);
+		    -ms-transform: rotate(-7deg);
+		     -o-transform: rotate(-7deg);
+		        transform: rotate(-7deg);
+	}
+	.education-course-list figure:after {
+		-webkit-transform: rotate(7deg);
+		   -moz-transform: rotate(7deg);
+		    -ms-transform: rotate(7deg);
+		     -o-transform: rotate(7deg);
+		        transform: rotate(7deg);
+	}
+	.education-thumb-text { width: 90%;}
+	.education-event-thumb { padding: 137px 0px 0px;}
+	.education-event-list-text { padding: 24px 25px 19px 30px;}
+	.education-search-result { padding: 59px 0px 47px 20px;}
+	.education-shop-tabs .nav-tabs li { margin: 0px 30px 10px 0px;}
+	.education-shopwrap figure { width: 100%;}
+	.education-shop-grid-text .star-rating,.education-shop-list-text .star-rating { width: 34%;}
+	.login-network li { width: 50%;}
+	.login-network li a {padding: 5px 12px;}
+	.education-back-top { margin: 0px 0px 0px -15px;}
+	.education-service ul li { width: 100%;}
+	.education-about-image { display: block;}
+	.education-team-grid-text { padding: 39px 28px 26px;}
+	.education-team-grid figure figcaption { width: 89%;}
+	.education-event-list-wrap .education-course-grid-option li { margin: 0 10px 0 0;}
+	.education-related-blog-text .education-related-option li { margin: 0px 22px 0px 0px;}
+	.education-shop-list-text { padding: 24px 30px 25px 29;}
+	.education-shop-list-text .star-rating { width: 20%;}
+	.education-shop.education-shop-list > ul > li { width: 100%;}
+
+
+
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+	.navbar-nav > li { padding: 45px 15px 30px;}
+	.education-event-medium-text { margin: 30px 0 0 -72px;}
+	.education-modern-gallery figure figcaption { width: 80%;}
+	.education-modern-gallery figure figcaption span { margin: 0 0 141px;}
+	.education-newslatter-text form label:before,.education-newslatter-text form label:after { left: -144px;}
+	.education-newslatter-text form label:after { bottom: -1px;}
+	.star-rating { width: 46%;}
+	.education-about-services { margin: 0px;}
+	.education-about-image { margin: -24px 0px 0px;}
+	.education-team-grid figure figcaption {width: 100%; }
+	.education-team-grid-text { padding: 39px 15px 26px;}
+	.education-thumb-heading h2 { padding: 20px 22px;}
+	.education-rich-editor { width: 87%;}
+	.education-tags { width: 87%;}
+	.education-prev-post:before,.education-next-post:before { width: 94%;}
+	.education-related-blog-text { padding: 22px 8px 20px 15px;}
+	.education-sidebar .star-rating { width: 73%;}
+	.education-sidebar .widget_featured_courses figcaption small { float: left;}
+	.education-grid-comments { margin: 0px 0px 0px 21px;}
+	.education-blog-large-text { width: 87%;}
+	.education-blog-medium-text { width: 63%; margin: 21px 0 0 -110px;}
+	.education-blog-medium figure a i { margin: -25px 0 0 -72px;}
+	.education-course-thumb figcaption { width: 92%;}
+	.education-course-grid-text .star-rating { width: 31%;}
+	.education-course-list-text { padding: 9px 14px 6px;}
+	.education-course-list figure ~ .education-course-list-wrap { margin: 0 0 0 300px;}
+	.education-course-list figure { width: 300px;}
+	.education-course-list-text .star-rating { width: 21%; margin: 0 3px 0 0;}
+	.education-course-list-wrap .education-course-grid-option { padding: 8px 25px 2px 30px;}
+	.education-thumb-text { width: 77%;}
+	.education-event-gallery figure figcaption { padding: 0px 23px;}
+	.education-related-event figure figcaption { padding: 19px 0 14px 14px;}
+	.education-event-list-wrap .education-course-grid-option { padding: 16px 9px 17px;}
+	.education-event-list-text { padding: 15px 25px 10px 30px;}
+	.education-event-list-text span { margin: 0 0 14px;}
+	.education-shop-detail-text { width: 48%;}
+	.education-shop-detail-text .star-rating { width: 27%; line-height: 25px;}
+	.education-shop-grid-text .star-rating { width: 42%;}
+	.education-shop-list-text .star-rating { width: 23%;}
+	.education-shop-list-text { padding: 10px 0px 25px 29px;}
+	.education-shop-list-text > span { margin: 0px 0px 8px;}
+	.education-shop-detail-text h4 { font-size: 18px;}
+	.education-shop-grid-text { padding: 19px 0 28px 9px;}
+
+
+}
