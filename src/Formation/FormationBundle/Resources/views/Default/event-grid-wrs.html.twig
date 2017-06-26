@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Education Event Grid WRS</title>
+
+    <!-- Css Files -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/slick-slider.css" rel="stylesheet">
+    <link href="css/fancybox.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	
+    <!--// Main Wrapper \\-->
+    <div class="education-main-wrapper">
+
+        <!--// Header \\-->
+        <header id="education-header" class="education-header-one">
+            
+            <!--// TopStrip \\-->
+            <div class="education-top-strip education-bgcolor">
+                <div class="container">
+                    <div class="row">
+                        <aside class="col-md-6">
+                            <ul class="education-userinfo">
+                                <li><i class="fa fa-clock-o"></i> 08:00 am - 06:00 pm</li>
+                                <li><i class="fa fa-phone"></i> +123 456 789</li>
+                            </ul>
+                        </aside>
+                        <aside class="col-md-6">
+                            <ul class="education-user-section">
+                                <li>
+                                    <div class="education-language">
+                                        <ul>
+                                            <li> <a href="#"><i class="fa fa-globe"></i> English</a>
+                                                <ul class="education-language-menu">
+                                                    <li><a href="#">English</a></li>
+                                                    <li><a href="#">Arabic</a></li>
+                                                    <li><a href="#">Farsi</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li> <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-user"></i> Login</a></li>
+                                <li> <a href="#" data-toggle="modal" data-target="#signupModal"><i class="fa fa-sign-in"></i> Sign Up</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <!--// TopStrip \\-->
+
+            <!--// MainHeader \\-->
+            <div class="education-main-header">
+                <div class="container">
+                    <div class="row">
+                        <aside class="col-md-5">
+                            <nav class="navbar navbar-default">
+                                <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                                  <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">Home</a>
+                                        <ul class="education-dropdown-menu">
+                                            <li><a href="index">Home One</a></li>
+                                            <li><a href="index-two">Home Two</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about-us">About us</a></li>
+                                    <li><a href="#">events</a>
+                                        <ul class="education-dropdown-menu">
+                                            <li><a href="event-grid">Event Grid</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="event-grid">Event Grid W/O/S</a></li>
+                                                    <li><a href="event-grid-wls">Event Grid W/L/S</a></li>
+                                                    <li><a href="event-grid-wrs">Event Grid W/R/S</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="event-list">Event List</a></li>
+                                            <li><a href="event-list-wls">Event List W/L/S</a></li>
+                                            <li><a href="event-medium">Event Medium</a></li>
+                                            <li><a href="event-detail">Event Detail</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="event-detail-wls">Event Detail W/L/S</a></li>
+                                                    <li><a href="event-detail">Event Detail W/R/S</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Blogs</a>
+                                        <ul class="education-dropdown-menu">
+                                            <li><a href="blog-grid">Blog Grid</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="blog-grid">Blog Grid W/O/S</a></li>
+                                                    <li><a href="shop-grid-wls">Blog Grid W/L/S</a></li>
+                                                    <li><a href="shop-grid-wrs">Blog Grid W/R/S</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog-large">Blog Large</a></li>
+                                            <li><a href="blog-large-wls">Blog Large W/L/S</a></li>
+                                            <li><a href="blog-medium">Blog Medium</a></li>
+                                            <li><a href="blog-detail">Blog Detail</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="blog-detail">Blog Detail W/R/S</a></li>
+                                                    <li><a href="blog-detail-wls">Blog Detail W/L/S</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li> 
+                                  </ul>
+                                </div>
+                            </nav>
+                        </aside>
+                        <aside class="col-md-2"><a href="index" class="education-logo"><img src="images/logo.png" alt=""></a></aside>
+                        <aside class="col-md-5">
+                            <nav class="navbar navbar-default">
+                                <div class="navbar-header">
+                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2" aria-expanded="true">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                  </button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="navbar-collapse-2">
+                                  <ul class="nav navbar-nav">
+                                    <li><a href="#">courses</a>
+                                        <ul class="education-dropdown-menu">
+                                            <li><a href="course-grid">Course Grid</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="course-grid">Course Grid W/O/S</a></li>
+                                                    <li><a href="course-grid-wls">Course Grid W/L/S</a></li>
+                                                    <li><a href="course-grid-wrs">Course Grid W/R/S</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="course-modren">Course Modren</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="course-modren">Course Modren W/O/S</a></li>
+                                                    <li><a href="course-modren-wls">Course Modren W/L/S</a></li>
+                                                    <li><a href="course-modren-wrs">Course Modren W/R/S</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="course-list">Course List</a></li>
+                                            <li><a href="course-list-wls">Course List W/L/S</a></li>
+                                            <li><a href="course-detail">Course Detail</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="course-detail">Course Detail W/R/S</a></li>
+                                                    <li><a href="course-detail-wls">Course Detail W/L/S</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shop</a>
+                                        <ul class="education-dropdown-menu">
+                                            <li><a href="shop-grid">Shop Grid</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="shop-grid">Shop Grid W/O/S</a></li>
+                                                    <li><a href="shop-grid-wls">Shop Grid W/L/S</a></li>
+                                                    <li><a href="shop-grid-wrs">Shop Grid W/R/S</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="shop-list">Shop List</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="shop-list">Shop List W/O/S</a></li>
+                                                    <li><a href="shop-list-wls">Shop List W/L/S</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="shop-detail">Shop Detail</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="shop-detail">Shop Detail W/R/S</a></li>
+                                                    <li><a href="shop-detail-wls">Shop Detail W/L/S</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="education-dropdown-menu">
+                                            <li><a href="team-grid">Team Grid</a>
+                                                <ul class="education-dropdown-menu">
+                                                    <li><a href="team-grid">Team Grid W/O/S</a></li>
+                                                    <li><a href="team-grid-wls">Team Grid W/L/S</a></li>
+                                                    <li><a href="team-grid-wrs">Team Grid W/R/S</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="search-result">Search Result</a></li>
+                                            <li><a href="gallery">Gallery 4 Column</a></li>
+                                            <li><a href="gallery-view-two">Gallery 3 Column</a></li>
+                                            <li><a href="faq">Faq</a></li>
+                                            <li><a href="404">404 Error</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact-us">Contact us</a></li> 
+                                  </ul>
+                                </div>
+                            </nav>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <!--// MainHeader \\-->
+
+        </header>
+        <!--// Header \\-->
+
+        <!--// SubHeader \\-->
+        <div class="education-subheader">
+            <span class="subheader-transparent"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="education-subheader-title"><h1>Event Grid W/R/Sidebar</h1></div>
+                        <ul class="education-breadcrumb">
+                            <li><a href="index">Home</a></li>
+                            <li><i class="fa fa-long-arrow-right"></i></li>
+                            <li class="active">Event Grid</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// SubHeader \\-->
+
+		<!--// Main Content \\-->
+		<div class="education-main-content">
+
+			<!--// Main Section \\-->
+			<div class="education-main-section">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-md-9">
+                            <div class="education-event education-event-grid">
+                                <ul class="row">
+                                    <li class="col-md-6">
+                                        <figure><a href="event-detail"><img src="extra-images/event-grid-img1.jpg" alt=""><i class="fa fa-link"></i></a></figure>
+                                        <div class="education-event-grid-text">
+                                            <h5><a href="event-detail">Seven UK business schools </a></h5>
+                                            <ul class="education-course-detail-option">
+                                                <li>
+                                                    <i class="fa fa-calendar-o"></i>
+                                                    <span>April 16, 2017 </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-map-marker"></i>
+                                                    <span>2925 Swick Street, Charlotte</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <span>6:30 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-ticket"></i>
+                                                    <span>$20 - $40</span>
+                                                </li>
+                                            </ul>
+                                            <p>Lorem ipsum dolor sit amet, consecctur adip iscing elit. Sed et elementum.</p>
+                                            <a href="event-detail" class="education-classic-btn">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="event-detail"><img src="extra-images/event-grid-img2.jpg" alt=""><i class="fa fa-link"></i></a></figure>
+                                        <div class="education-event-grid-text">
+                                            <h5><a href="event-detail">Seven UK business schools </a></h5>
+                                            <ul class="education-course-detail-option">
+                                                <li>
+                                                    <i class="fa fa-calendar-o"></i>
+                                                    <span>April 16, 2017 </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-map-marker"></i>
+                                                    <span>2925 Swick Street, Charlotte</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <span>6:30 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-ticket"></i>
+                                                    <span>$20 - $40</span>
+                                                </li>
+                                            </ul>
+                                            <p>Lorem ipsum dolor sit amet, consecctur adip iscing elit. Sed et elementum.</p>
+                                            <a href="event-detail" class="education-classic-btn">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="event-detail"><img src="extra-images/event-grid-img3.jpg" alt=""><i class="fa fa-link"></i></a></figure>
+                                        <div class="education-event-grid-text">
+                                            <h5><a href="event-detail">Seven UK business schools </a></h5>
+                                            <ul class="education-course-detail-option">
+                                                <li>
+                                                    <i class="fa fa-calendar-o"></i>
+                                                    <span>April 16, 2017 </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-map-marker"></i>
+                                                    <span>2925 Swick Street, Charlotte</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <span>6:30 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-ticket"></i>
+                                                    <span>$20 - $40</span>
+                                                </li>
+                                            </ul>
+                                            <p>Lorem ipsum dolor sit amet, consecctur adip iscing elit. Sed et elementum.</p>
+                                            <a href="event-detail" class="education-classic-btn">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="event-detail"><img src="extra-images/event-grid-img4.jpg" alt=""><i class="fa fa-link"></i></a></figure>
+                                        <div class="education-event-grid-text">
+                                            <h5><a href="event-detail">Seven UK business schools </a></h5>
+                                            <ul class="education-course-detail-option">
+                                                <li>
+                                                    <i class="fa fa-calendar-o"></i>
+                                                    <span>April 16, 2017 </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-map-marker"></i>
+                                                    <span>2925 Swick Street, Charlotte</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <span>6:30 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-ticket"></i>
+                                                    <span>$20 - $40</span>
+                                                </li>
+                                            </ul>
+                                            <p>Lorem ipsum dolor sit amet, consecctur adip iscing elit. Sed et elementum.</p>
+                                            <a href="event-detail" class="education-classic-btn">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="event-detail"><img src="extra-images/event-grid-img5.jpg" alt=""><i class="fa fa-link"></i></a></figure>
+                                        <div class="education-event-grid-text">
+                                            <h5><a href="event-detail">Seven UK business schools </a></h5>
+                                            <ul class="education-course-detail-option">
+                                                <li>
+                                                    <i class="fa fa-calendar-o"></i>
+                                                    <span>April 16, 2017 </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-map-marker"></i>
+                                                    <span>2925 Swick Street, Charlotte</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <span>6:30 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-ticket"></i>
+                                                    <span>$20 - $40</span>
+                                                </li>
+                                            </ul>
+                                            <p>Lorem ipsum dolor sit amet, consecctur adip iscing elit. Sed et elementum.</p>
+                                            <a href="event-detail" class="education-classic-btn">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="event-detail"><img src="extra-images/event-grid-img6.jpg" alt=""><i class="fa fa-link"></i></a></figure>
+                                        <div class="education-event-grid-text">
+                                            <h5><a href="event-detail">Seven UK business schools </a></h5>
+                                            <ul class="education-course-detail-option">
+                                                <li>
+                                                    <i class="fa fa-calendar-o"></i>
+                                                    <span>April 16, 2017 </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-map-marker"></i>
+                                                    <span>2925 Swick Street, Charlotte</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <span>6:30 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-ticket"></i>
+                                                    <span>$20 - $40</span>
+                                                </li>
+                                            </ul>
+                                            <p>Lorem ipsum dolor sit amet, consecctur adip iscing elit. Sed et elementum.</p>
+                                            <a href="event-detail" class="education-classic-btn">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="event-detail"><img src="extra-images/event-grid-img7.jpg" alt=""><i class="fa fa-link"></i></a></figure>
+                                        <div class="education-event-grid-text">
+                                            <h5><a href="event-detail">Seven UK business schools </a></h5>
+                                            <ul class="education-course-detail-option">
+                                                <li>
+                                                    <i class="fa fa-calendar-o"></i>
+                                                    <span>April 16, 2017 </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-map-marker"></i>
+                                                    <span>2925 Swick Street, Charlotte</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <span>6:30 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-ticket"></i>
+                                                    <span>$20 - $40</span>
+                                                </li>
+                                            </ul>
+                                            <p>Lorem ipsum dolor sit amet, consecctur adip iscing elit. Sed et elementum.</p>
+                                            <a href="event-detail" class="education-classic-btn">Read More</a>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="event-detail"><img src="extra-images/event-grid-img8.jpg" alt=""><i class="fa fa-link"></i></a></figure>
+                                        <div class="education-event-grid-text">
+                                            <h5><a href="event-detail">Seven UK business schools </a></h5>
+                                            <ul class="education-course-detail-option">
+                                                <li>
+                                                    <i class="fa fa-calendar-o"></i>
+                                                    <span>April 16, 2017 </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-map-marker"></i>
+                                                    <span>2925 Swick Street, Charlotte</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-clock-o"></i>
+                                                    <span>6:30 AM - 5:00 PM</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-ticket"></i>
+                                                    <span>$20 - $40</span>
+                                                </li>
+                                            </ul>
+                                            <p>Lorem ipsum dolor sit amet, consecctur adip iscing elit. Sed et elementum.</p>
+                                            <a href="event-detail" class="education-classic-btn">Read More</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--// Pagination \\-->
+                            <div class="education-pagination">
+                              <ul class="page-numbers">
+                                 <li><a class="previous page-numbers" href="404"><span aria-label="Next"><i class="fa fa-angle-left"></i></span></a></li>
+                                 <li><span class="page-numbers current">1</span></li>
+                                 <li><a class="page-numbers" href="404">2</a></li>
+                                 <li><a class="page-numbers" href="404">3</a></li>
+                                 <li><a class="page-numbers" href="404">4</a></li>
+                                 <li><a class="next page-numbers" href="404"><span aria-label="Next"><i class="fa fa-angle-right"></i></span></a></li>
+                              </ul>
+                            </div>
+                            <!--// Pagination \\-->
+                        </div>
+
+                        <!--// SideBaar \\-->
+                        <aside class="col-md-3 education-sidebar">
+
+                            <!--// Widget Search \\-->
+                            <div class="widget widget_search">
+                                <form>
+                                    <input type="text" value="Search" onblur="if(this.value == '') { this.value ='Search'; }" onfocus="if(this.value =='Search') { this.value = ''; }">
+                                    <label>
+                                        <input type="submit" value="">
+                                    </label>
+                                </form>
+                            </div>
+                            <!--// Widget Search \\-->
+
+                            <!--// Widget Cetagories \\-->
+                            <div class="education-widget-heading"><h2>Cetagories</h2></div>
+                            <div class="widget widget_cetagories">
+                                <ul>
+                                    <li><a href="404">Web Design<span>( 12 )</span></a></li>
+                                    <li><a href="404">Graphic Design<span>( 09 )</span></a></li>
+                                    <li><a href="404">Courses<span>( 07 )</span></a></li>
+                                    <li><a href="404">Blogs<span>( 11 )</span></a></li>
+                                    <li><a href="404">Music<span>( 10 )</span></a></li>
+                                </ul>
+                            </div>
+                            <!--// Widget Cetagories \\-->
+
+                            <!--// Widget Featured Courses \\-->
+                            <div class="education-widget-heading"><h2>Featured Courses</h2></div>
+                            <div class="widget widget_featured_courses">
+                                <ul>
+                                    <li>
+                                        <figure><a href="course-detail"><img src="extra-images/side-featured-img1.jpg" alt=""><i class="fa fa-link"></i></a>
+                                            <figcaption>
+                                                <h6><a href="course-detail">Lorem ipsum dolor si tamet cons</a></h6>
+                                                <a href="course-detail"><i class="fa fa-user"></i>Prof John Martyn</a>
+                                                <div class="star-rating"><span class="star-rating-box" style="width:54%"></span></div>
+                                                <small>( 12 Reviews )</small>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure><a href="course-detail"><img src="extra-images/side-featured-img2.jpg" alt=""><i class="fa fa-link"></i></a>
+                                            <figcaption>
+                                                <h6><a href="course-detail">Lorem ipsum dolor si tamet cons</a></h6>
+                                                <a href="course-detail"><i class="fa fa-user"></i>Prof John Martyn</a>
+                                                <div class="star-rating"><span class="star-rating-box" style="width:54%"></span></div>
+                                                <small>( 12 Reviews )</small>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure><a href="course-detail"><img src="extra-images/side-featured-img3.jpg" alt=""><i class="fa fa-link"></i></a>
+                                            <figcaption>
+                                                <h6><a href="course-detail">Lorem ipsum dolor si tamet cons</a></h6>
+                                                <a href="course-detail"><i class="fa fa-user"></i>Prof John Martyn</a>
+                                                <div class="star-rating"><span class="star-rating-box" style="width:54%"></span></div>
+                                                <small>( 12 Reviews )</small>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--// Widget Featured Courses \\-->
+
+                            <!--// Widget upcomimg events \\-->
+                            <div class="education-widget-heading"><h2>Upcoming Events</h2></div>
+                            <div class="widget widget_events">
+                                <ul>
+                                    <li>
+                                        <time class="education-bgcolor" datetime="2008-02-14 20:00">21 Aug</time>
+                                        <div class="education-event-text">
+                                            <a href="404">Available</a>
+                                           <h6><a href="event-detail">Lorem ipsum dolor si met, consecte</a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <time class="education-bgcolor" datetime="2008-02-14 20:00">14 Sep</time>
+                                        <div class="education-event-text">
+                                            <a href="404" class="sold-out">Sold Out</a>
+                                           <h6><a href="event-detail">Lorem ipsum dolor si met, consecte</a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <time class="education-bgcolor" datetime="2008-02-14 20:00">18 Oct</time>
+                                        <div class="education-event-text">
+                                            <a href="404">Available</a>
+                                           <h6><a href="event-detail">Lorem ipsum dolor si met, consecte</a></h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <time class="education-bgcolor" datetime="2008-02-14 20:00">28 Dec</time>
+                                        <div class="education-event-text">
+                                            <a href="404">Available</a>
+                                           <h6><a href="event-detail">Lorem ipsum dolor si met, consecte</a></h6>
+                                        </div>
+                                    </li>
+                                 </ul>
+                            </div>
+                            <!--// Widget upcomimg events \\-->
+
+                            <!--// Widget Caendar \\-->
+                            <div class="education-widget-heading"><h2>Calendar Archives</h2></div>
+                            <div class="widget widget_calendar">
+                                <table>
+                                    <caption>January 2017</caption>
+                                    <thead>
+                                        <tr>
+                                            <th title="Monday">M</th>
+                                            <th title="Tuesday">T</th>
+                                            <th title="Wednesday">W</th>
+                                            <th title="Thursday">T</th>
+                                            <th title="Friday">F</th>
+                                            <th title="Saturday">S</th>
+                                            <th title="Sunday">S</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="5"></td><td id="today">1</td><td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
+                                        </tr>
+                                        <tr>
+                                            <td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+                                        </tr>
+                                        <tr>
+                                            <td>31</td><td colspan="6"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--// Widget Caendar \\-->
+
+                            <!--// Widget Gallery \\-->
+                            <div class="education-widget-heading"> <h2>Flicker Images</h2> </div>
+                            <div class="widget widget_gallery">
+                                <ul>
+                                    <li><a data-fancybox-group="group" href="extra-images/side-gallery-img-1.jpg" class="fancybox"><img src="extra-images/side-gallery-img-1.jpg" alt=""><i class="fa fa-plus-circle"></i></a></li>
+                                    <li><a data-fancybox-group="group" href="extra-images/side-gallery-img-2.jpg" class="fancybox"><img src="extra-images/side-gallery-img-2.jpg" alt=""><i class="fa fa-plus-circle"></i></a></li>
+                                    <li><a data-fancybox-group="group" href="extra-images/side-gallery-img-3.jpg" class="fancybox"><img src="extra-images/side-gallery-img-3.jpg" alt=""><i class="fa fa-plus-circle"></i></a></li>
+                                    <li><a data-fancybox-group="group" href="extra-images/side-gallery-img-4.jpg" class="fancybox"><img src="extra-images/side-gallery-img-4.jpg" alt=""><i class="fa fa-plus-circle"></i></a></li>
+                                    <li><a data-fancybox-group="group" href="extra-images/side-gallery-img-5.jpg" class="fancybox"><img src="extra-images/side-gallery-img-5.jpg" alt=""><i class="fa fa-plus-circle"></i></a></li>
+                                    <li><a data-fancybox-group="group" href="extra-images/side-gallery-img-6.jpg" class="fancybox"><img src="extra-images/side-gallery-img-6.jpg" alt=""><i class="fa fa-plus-circle"></i></a></li>
+                                </ul>
+                            </div>
+                            <!--// Widget Gallery \\-->
+
+                        </aside>
+                        <!--// SideBaar \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+		</div>
+		<!--// Main Content \\-->
+
+        <!--// Footer \\-->
+        <footer id="education-footer" class="education-footer-one">
+            <span class="education-footer-pattren"></span>
+            
+            <!--// Footer Widget \\-->
+            <div class="education-footer-widget">
+                <div class="container">
+                    <div class="row">
+                        <!--// Widget Contact Info \\-->
+                        <aside class="col-md-4 widget widget_contact_info">
+                            <a href="index" class="education-footer-logo"><img src="images/footer-logo.png" alt=""></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat urna non ipsum maxim us malesuada.</p>
+                            <ul>
+                                <li><i class="education-color fa fa-home"></i> 195 Cooks Mine Road Espa nola, NM 87532</li>
+                                <li><i class="education-color fa fa-phone"></i> +123 45 678 - 00 913 2245 <br>678</li>
+                                <li><i class="education-color fa fa-envelope"></i> <a href="mailto:name@email.com">info@example.com - </a> <a href="mailto:name@email.com">example@abc.com</a></li>
+                            </ul>
+                        </aside>
+                        <!--// Widget Contact Info \\-->
+                        <!--// Widget Featured Courses \\-->
+                        <aside class="col-md-4 widget widget_featured_courses">
+                            <div class="education-footer-title"> <h4>Featured Courses</h4> </div>
+                            <ul>
+                                <li>
+                                    <figure><a href="course-detail"><img src="extra-images/widget-featured-courses-1.jpg" alt=""></a>
+                                        <figcaption>
+                                            <h6><a href="course-detail">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
+                                            <div class="star-rating"><span class="star-rating-box" style="width:54%"></span></div>
+                                            <small>( 12 Reviews )</small>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure><a href="course-detail"><img src="extra-images/widget-featured-courses-2.jpg" alt=""></a>
+                                        <figcaption>
+                                            <h6><a href="course-detail">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
+                                            <div class="star-rating"><span class="star-rating-box" style="width:34%"></span></div>
+                                            <small>( 12 Reviews )</small>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure><a href="course-detail"><img src="extra-images/widget-featured-courses-3.jpg" alt=""></a>
+                                        <figcaption>
+                                            <h6><a href="course-detail">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
+                                            <div class="star-rating"><span class="star-rating-box" style="width:85%"></span></div>
+                                            <small>( 12 Reviews )</small>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </aside>
+                        <!--// Widget Featured Courses \\-->
+                        <!--// Widget Gallery \\-->
+                        <aside class="col-md-4 widget widget_gallery">
+                            <div class="education-footer-title"> <h4>Flicker Images</h4> </div>
+                            <ul>
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-1.jpg" alt=""></a></li>
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-2.jpg" class="fancybox"><img src="extra-images/widget-gallery-2.jpg" alt=""></a></li>
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-3.jpg" class="fancybox"><img src="extra-images/widget-gallery-3.jpg" alt=""></a></li>
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-4.jpg" class="fancybox"><img src="extra-images/widget-gallery-4.jpg" alt=""></a></li>
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-5.jpg" class="fancybox"><img src="extra-images/widget-gallery-5.jpg" alt=""></a></li>
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-6.jpg" class="fancybox"><img src="extra-images/widget-gallery-6.jpg" alt=""></a></li>
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-7.jpg" class="fancybox"><img src="extra-images/widget-gallery-7.jpg" alt=""></a></li>
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-8.jpg" class="fancybox"><img src="extra-images/widget-gallery-8.jpg" alt=""></a></li>
+                            </ul>
+                        </aside>
+                        <!--// Widget Gallery \\-->
+                    </div>
+                </div>
+            </div>
+            <!--// Footer Widget \\-->
+
+            <!--// CopyRight \\-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="education-copyright">
+                            <p>© 2017, All Right Reserved - by <a href="index">EyeCix</a></p>
+                            <ul>
+                                <li><a href="404">Privacy</a></li>
+                                <li><a href="404">Terms</a></li>
+                                <li><a href="404">Sitemap</a></li>
+                                <li><a href="404">Purchase</a></li>
+                            </ul>
+                            <a href="#" class="education-back-top"><i class="fa fa-angle-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// CopyRight \\-->
+
+        </footer>
+        <!--// Footer \\-->
+
+        <!--// Footer Parallax \\-->
+        <div class="education-parallax">
+            <span class="education-footer-pattren"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Get the Coaching Training for Free</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et elementum nulla, eu placerat felis. Etiam tincidunt orci lacus, id varius.</p> <br>
+                        <a href="#">Get Started Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// Footer Parallax \\-->
+
+	<div class="clearfix"></div>
+    </div>
+    <!--// Main Wrapper \\-->
+
+    <!-- LoginModal -->
+    <div class="loginmodal modal fade" id="loginModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="education-login-box">
+                <a href="#" data-dismiss="modal" class="education-login-close"><i class="icon-uniF106"></i></a>
+                <h4>Login To Your Account</h4>
+                <form>
+                    <input type="text" value="Enter username*" onblur="if(this.value == '') { this.value ='Enter username*'; }" onfocus="if(this.value =='Enter username*') { this.value = ''; }">
+                    <input type="password" value="Password*" onblur="if(this.value == '') { this.value ='Password*'; }" onfocus="if(this.value =='Password*') { this.value = ''; }">
+                    <a href="#">Forget Password?</a>
+                    <div class="clearfix"></div>
+                    <label><input type="submit" value="Sign In"></label>
+                </form>
+                <h4>Try Our Socials Also</h4>
+                <ul class="login-network">
+                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                    <li class="education-twitter"><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                    <li class="education-google-plus"><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+                </ul>
+                <p>Not A Member Yet ? <a href="#" class="education-color">Sign - Up Now !</a></p>
+            </div>
+        <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- SignupModal -->
+    <div class="loginmodal modal fade" id="signupModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="education-login-box">
+                <a href="#" data-dismiss="modal" class="education-login-close education-color"><i class="icon-uniF106"></i></a>
+                <h4>Sign Up Now</h4>
+                <form>
+                    <input type="text" value="Enter username*" onblur="if(this.value == '') { this.value ='Enter username*'; }" onfocus="if(this.value =='Enter username*') { this.value = ''; }">
+                    <input type="text" value="Type your password*" onblur="if(this.value == '') { this.value ='Type your password*'; }" onfocus="if(this.value =='Type your password*') { this.value = ''; }">
+                    <input type="text" value="Confirm your password*" onblur="if(this.value == '') { this.value ='Confirm your password*'; }" onfocus="if(this.value =='Confirm your password*') { this.value = ''; }">
+                    <a href="#">Forget Password?</a>
+                    <div class="clearfix"></div>
+                    <label><input type="submit" value="Sign Up"></label>
+                </form>
+                <h4>Try Our Socials Also</h4>
+                <ul class="login-network">
+                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                    <li class="education-twitter"><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                    <li class="education-google-plus"><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+                </ul>
+                <p>Not A Member Yet ? <a href="#" class="education-color">Login - Now !</a></p>
+            </div>
+        <div class="clearfix"></div>
+        </div>
+    </div>
+
+
+	<!-- jQuery (necessary for JavaScript plugins) -->
+	<script type="text/javascript" src="script/jquery.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/slick.slider.min.js"></script>
+    <script type="text/javascript" src="script/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="script/fancybox.pack.js"></script>
+    <script type="text/javascript" src="script/progressbar.js"></script>
+    <script type="text/javascript" src="script/counter.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="script/functions.js"></script>
+
+  </body>
+</html>

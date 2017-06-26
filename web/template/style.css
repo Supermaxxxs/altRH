@@ -387,7 +387,7 @@ address { font-style: italic; }
     text-align: left;
 }
 .navbar-nav > li {
-    padding: 45px 28px 30px 28px;
+    padding: 45px 2px 30px 2px;
 }
 .navbar-nav > li:first-child { padding-left: 0px; }
 .navbar-nav > li:last-child { padding-right: 0px; }
