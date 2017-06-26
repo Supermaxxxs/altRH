@@ -1,176 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Education Home Page</title>
-
-    <!-- Css Files -->
-    <link href="{{ asset('template/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('template/css/font-awesome.css') }}" rel="stylesheet">
-    <link href="{{ asset('template/css/flaticon.css') }}" rel="stylesheet">
-    <link href="{{ asset('template/css/slick-slider.css') }}" rel="stylesheet">
-    <link href="{{ asset('template/css/fancybox.css') }}" rel="stylesheet">
-    <link href="{{ asset('template/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('template/css/color.css') }}" rel="stylesheet">
-    <link href="{{ asset('template/css/responsive.css') }}" rel="stylesheet">
-    
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    
-    <!--// Main Wrapper \\-->
-    <div class="education-main-wrapper">
-
-        <!--// Header \\-->
-        <header id="education-header" class="education-header-one">
-            
-            <!--// TopStrip \\-->
-            <div class="education-top-strip education-bgcolor">
-                <div class="container">
-                    <div class="row">
-                        <aside class="col-md-6">
-                            <ul class="education-userinfo">
-                                <li><i class="fa fa-clock-o"></i> 08:00 - 06:00</li>
-                                <li><i class="fa fa-phone"></i> 0033 6 16 30 77 54</li>
-                            </ul>
-                        </aside>
-                        <aside class="col-md-6">
-                            <ul class="education-user-section">
-                                <li>
-                                    <div class="education-language">
-                                        <a><i class="fa fa-globe"></i> Français</a>
-                                    </div>
-                                </li>
-                                <li> <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-user"></i> Login</a></li>
-                                <li> <a href="#" data-toggle="modal" data-target="#signupModal"><i class="fa fa-sign-in"></i> Sign Up</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                </div>
-            </div>
-            <!--// TopStrip \\-->
-
-            <!--// MainHeader \\-->
-            <div class="education-main-header">
-                    <div class="row">
-                        <aside class="col-md-5">
-                            <nav class="navbar navbar-default">
-                                <div class="navbar-header">
-                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                  </button>
-                                </div>
-                                <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                                  <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">ACCUEIL</a></li>
-                                    <li><a href="about-us">GESTION DE CARRIERE</a>
-                                        <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Bilan de compétences</a></li>
-                                            <li><a href="event-grid">Validation des aquis de l'experience</a></li>
-                                            <li><a href="event-grid">Bilan Mi-Carriere</a></li>
-                                            <li><a href="event-grid">Coaching</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">FORMATIONS</a>
-                                        <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Informatique</a>
-                                                <ul class="education-dropdown-menu">
-                                                    <li><a href="event-grid">Concepteur Développeur Informatique</a></li>
-                                                    <li><a href="event-grid-wls">Administrateur Systèmes et Réseaux</a></li>
-                                                    <li><a href="event-grid-wrs">Technicien d'Assistance en Informatique</a></li>
-                                                    <li><a href="event-grid-wrs">Technicien Supérieur en Support Informatique</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="event-list">Ressources Humaines</a></li>
-                                            <li><a href="event-list-wls">Management</a></li>
-                                            <li><a href="event-medium">Finance et comptabilité</a></li>
-                                            <li><a href="event-medium">Développement personnel</a></li>
-                                            <li><a href="event-medium">Hygiène et sécurité</a></li>
-                                            <li><a href="event-medium">Langues</a></li>
-                                            <li><a href="event-medium">Handicap</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">CREATION D'ENTREPRISE</a>
-                                        <ul class="education-dropdown-menu">
-                                            <li><a href="blog-large">Méthodologie</a></li>
-                                            <li><a href="blog-large">Financement</a></li>
-                                            <li><a href="blog-large">Formations et ateliers</a></li>
-                                            <li><a href="blog-large">Création d'activité handicap</a></li>
-                                        </ul>
-                                    </li> 
-                                  </ul>
-                                </div>
-                            </nav>
-                        </aside>
-                        <aside class="col-md-2"><a href="index" class="education-logo"><img src="http://www.alt-rh.com/img/alt-rh-logo.png" alt=""></a></aside>
-                        <aside class="col-md-5">
-                            <nav class="navbar navbar-default">
-                                <div class="navbar-header">
-                                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2" aria-expanded="true">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                  </button>
-                                </div>
-                                <div class="collapse navbar-collapse" id="navbar-collapse-2">
-                                  <ul class="nav navbar-nav">
-                                     <li><a href="about-us">HANDICAP</a>
-                                        <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Prestations Agefiph</a></li>
-                                            <li><a href="event-grid">Diagnostic conseil</a></li>
-                                            <li><a href="event-grid">Bilan de maintien dans l'emploi</a></li>
-                                            <li><a href="event-grid">Ingénierie de formations TH</a></li>
-                                            <li><a href="event-grid">Création d'activité handicap</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about-us">RECRUTEMENT</a>
-                                        <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Méthodologie</a></li>
-                                            <li><a href="event-grid">Prestations de recrutement</a></li>
-                                            <li><a href="event-grid">Recrutement à l'international</a></li>
-                                            <li><a href="event-grid">Nos engagements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about-us">OFFRES D'EMPLOI</a>
-                                        <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Espace Candidats</a></li>
-                                            <li><a href="event-grid">Espace Entreprise</a></li>
-                                            <li><a href="event-grid">Offres d'emploi et stages</a></li>
-                                            <li><a href="event-grid">Conseils du coach</a></li>
-                                            <li><a href="event-grid">Nos engagements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact-us">CONTACT</a>
-                                        <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Nos implantations</a></li>
-                                            <li><a href="event-grid">Nous contacter</a></li>
-                                        </ul>
-                                    </li> 
-                                  </ul>
-                                </div>
-                            </nav>
-                        </aside>
-                    </div>
-            </div>
-            <!--// MainHeader \\-->
-            <!--// MainHeader \\-->
-
-        </header>
-        <!--// Header \\-->
-
+      {% extends '::base.html.twig' %}
+        {% block body %}
         <!--// Main Banner \\-->
         <div class="education-banner">
 
@@ -199,93 +28,6 @@
             
         </div>
         <!--// Main Banner \\--> 
-
-        <div class="education-main-section education-modren-coursefull">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-12">
-                            <div class="education-fancy-title">
-                                <i class="fa fa-graduation-cap"></i>
-                               
-                                <h2>PRESENTATION GENERALE</h2>
-                            </div>
-                            <div class="education-course education-modren-course">
-                                <ul class="row">
-                                    <li class="col-md-4">
-                                        <figure><img src="extra-images/presentation.jpg"  width= "360" height="250" alt=""> 
-                                            <div class="star-rating"><span class="star-rating-box" style="width:55%"></span></div>
-                                            
-                                        </figure>
-                                        <div class="education-grid-wrap">
-                                            <div class="education-modren-course-text">
-                                                <h5>PRESENTATION</h5>
-                                                
-                                                <p>Constamment en quête de l'excellence dans l'accompagnement en gestion de carrière, notre ambition est de placer l'humain au coeur de l'entreprise sur la base des compétences acquises et mobilisables.</br>
-
-Engagés dans la réinsertion professionnelle, nous contribuons à la performance des entreprises par l'optimisations des ressources humaines dans leur diversité et leur complémentarité.</br>
-
-Fort d'un département dédié au handicap, nous accompagnons également les entreprises dans la mise en place d'une politique RH intégrant le recrutement et le maintien dans l'emploi des collaborateurs en situation de handicap. </br>
-
-La chaîne unifiée de compétences de nos consultants permet au cabinet ALT-RH CONSULTING de s'organiser autour de 5 principaux Pôles d'expertise.</br>
-
-</p>
-                                            </div>
-                                          
-                                        </div>
-                                    </li>
-                                    <li class="col-md-4">
-                                        <figure><img src="extra-images/equipe.jpg" width="360" height="250" alt=""> 
-                                            <div class="star-rating"><span class="star-rating-box" style="width:55%"></span></div>
-                                            
-                                        </figure>
-                                        <div class="education-grid-wrap">
-                                            <div class="education-modren-course-text">
-                                                <h5>UNE EQUIPE D'EXPERT A VOTRE SERVICE</h5>
-                                               
-                                                <p>Notre réussite est en grande partie liée à la qualité de notre équipe, construite autour de consultants confirmés volontaires et enthousiastes, riches d’expériences professionnelles diversifiées et complémentaires.</br>
-
-Notre implication à vos cotés s’inscrit dans une relation de confiance, de continuité, de proximité,fondée sur une éthique référant aux meilleurs pratiques de nos métiers.</br>
-
-La dimension humaine qui caractérise nos rapports avec nos partenaires est un atout supplémentaire qui favorise la réactivité, la flexibilité et l'adaptabilité de nos propositions.</br>
-
-Notre équipe vous garantie une rigueur dans les démarches et les relations fondée sur la transparence avec une déontologie et une constante dans nos méthodes (certification NF)..</p>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                                
-                                    <li class="col-md-4">
-                                        <figure><img src="extra-images/engagement.jpg" width= "360" height="250" alt=""> 
-                                            <div class="star-rating"><span class="star-rating-box" style="width:55%"></span></div>
-                                            
-                                        </figure>
-                                        <div class="education-grid-wrap">
-                                            <div class="education-modren-course-text">
-                                                <h5>UNE DÉMARCHE ÉTHIQUE ET DÉANTOLOGIQUE</h5>
-                                               
-                                                <p>Notre démarche est fondée sur les principes de confidentialité, de rigueur, d'accompagnement et d'exigence.</br>
-
-La Charte de la diversité adoptée par chaque membre de l'équipe du cabinet ALT-RH CONSULTING a pour objet de témoigner de notre engagement en faveur de la diversité dans nos relations avec nos partenaires publics ou privés.</br>
-
-Nous nous engageons à respecter et promouvoir l'application du principe de non–discrimination sous toutes ses formes et dans toutes les étapes de gestion des ressources humaines que sont notamment l'embauche, la formation, l'avancement ou la promotion professionnelle des collaborateurs.</br>
-
-Nous cherchons à refléter la diversité de la société française et notamment sa diversité culturelle et ethnique dans notre effectif, aux différents niveaux de qualification. C'est pourquoi nous communiquons auprès de l'ensemble de nos collaborateurs notre engagement en faveur de la non–discrimination et de la diversité et nous faisons de l'élaboration et de la mise en oeuvre de cette politique de diversité un objet de dialogue avec les représentants des personnels.
-
-.</p>
-                                            </div>
-                                            
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
          <div class="education-main-section education-modren-coursefull">
                 <div class="container">
                     <div class="row">
@@ -463,23 +205,23 @@ Nous cherchons à refléter la diversité de la société française et notammen
                             </div>
                             <div class="education-partner">
                                 <ul>
-                                    <li ><a href="404"><img src="partenaires/partenaire-oseo.jpg"  alt=""></a></li>
-                                    <li ><a href="404"><img src="partenaires/partenaire-afdas.jpg"   alt=""></a></li>
-                                     <li ><a href="404"><img src="partenaires/partenaire-agefiph.jpg"  alt=""></a></li>
-                                    <li ><a href="404"><img src="partenaires/partenaire-apec.jpg"   alt=""></a></li>
-                                    <li><a href="404"><img src="partenaires/partenaire-banque-credit-agricole.jpg"  alt=""></a></li>
-                                     <li><a href="404"><img src="partenaires/partenaire-banque-lcl.jpg"  alt=""></a></li>
-                                    <li ><a href="404"><img src="partenaires/partenaire-enrope-sengage-en-france.jpg"   alt=""></a></li>
-                                     <li><a href="404"><img src="partenaires/partenaire-centre-inffo.jpg" alt=""></a></li>
-                                      <li ><a href="404"><img src="partenaires/partenaire-fafsea.jpg"  alt=""></a></li>
-                                       <li><a href="404"><img src="partenaires/partenaire-ffp.jpg"  alt=""></a></li>
-                                        <li ><a href="404"><img src="partenaires/partenaire-fongecif.jpg"  alt=""></a></li>
-                                         <li ><a href="404"><img src="partenaires/partenaire-france-initiative.jpg"  alt=""></a></li>
-                                          <li ><a href="404"><img src="partenaires/partenaire-opcalia.jpg"  alt=""></a></li>
-                                           <li ><a href="404"><img src="partenaires/partenaire-pole-emploi.jpg"   alt=""></a></li>
-                                            <li ><a href="404"><img src="partenaires/partenaire-unifaf.jpg"  alt=""></a></li>
-                                             <li ><a href="404"><img src="partenaires/partenaire-uniformation.jpg"   alt=""></a></li>
-                                              <li ><a href="404"><img src="partenaires/partenaire-val-d-oise-departement.jpg"  alt=""></a></li>
+                                    <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-oseo.jpg') }}"  alt=""></a></li>
+                                    <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-afdas.jpg') }}"   alt=""></a></li>
+                                     <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-agefiph.jpg') }}"  alt=""></a></li>
+                                    <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-apec.jpg') }}"   alt=""></a></li>
+                                    <li><a href="404"><img src="{{ asset('img/partenaires/partenaire-banque-credit-agricole.jpg') }}"  alt=""></a></li>
+                                     <li><a href="404"><img src="{{ asset('img/partenaires/partenaire-banque-lcl.jpg') }}"  alt=""></a></li>
+                                    <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-enrope-sengage-en-france.jpg') }}"   alt=""></a></li>
+                                     <li><a href="404"><img src="{{ asset('img/partenaires/partenaire-centre-inffo.jpg') }}" alt=""></a></li>
+                                      <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-fafsea.jpg') }}"  alt=""></a></li>
+                                       <li><a href="404"><img src="{{ asset('img/partenaires/partenaire-ffp.jpg') }}"  alt=""></a></li>
+                                        <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-fongecif.jpg') }}"  alt=""></a></li>
+                                         <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-france-initiative.jpg') }}"  alt=""></a></li>
+                                          <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-opcalia.jpg') }}"  alt=""></a></li>
+                                           <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-pole-emploi.jpg') }}"   alt=""></a></li>
+                                            <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-unifaf.jpg') }}"  alt=""></a></li>
+                                             <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-uniformation.jpg') }}"   alt=""></a></li>
+                                              <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-val-d-oise-departement.jpg') }}"  alt=""></a></li>
 
                                 </ul>
                             </div>
@@ -669,30 +411,5 @@ Nous cherchons à refléter la diversité de la société française et notammen
             </div> 
         <div class="clearfix"></div> 
         </div> 
-    </div> 
- 
- 
-    <!-- jQuery (necessary for JavaScript plugins) -->
-    <script type="text/javascript" src="{{ asset('template/script/jquery.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('template/script/bootstrap.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('template/script/slick.slider.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('template/script/jquery.countdown.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('template/script/fancybox.pack.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('template/script/progressbar.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('template/script/counter.js') }}"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript" src="{{ asset('template/script/functions.js') }}"></script>
-
-  </body>
-</html>
-
-
-
-                
-
-
-
-
-
-
-
+    </div>  
+        {% endblock %}

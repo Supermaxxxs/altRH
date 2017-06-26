@@ -376,5 +376,14 @@ class DefaultController extends Controller
     {
         return $this->render('FormationBundle:Default:team-grid-wrs.html.twig');
     }
+
+    /**
+     * @Route("/espace-candidat")
+     */
+
+    public function espaceCandidatAction()
+    {
+        return $this->render('FormationBundle:Default:espace-candidat.html.twig');
+    }
     
 }
