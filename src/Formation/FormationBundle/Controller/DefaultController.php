@@ -166,7 +166,7 @@ class DefaultController extends Controller
 
     public function formationHandicapAction()
     {
-        return $this->render('FormationBundle:Default:handicap.html.twig');
+        return $this->render('FormationBundle:Default:formation-handicap.html.twig');
     }
     /**
      * @Route("/creation-d-entreprise")
@@ -206,7 +206,7 @@ class DefaultController extends Controller
 
     public function creationEntrepriseHandicapAction()
     {
-        return $this->render('FormationBundle:Default:handicap.html.twig');
+        return $this->render('FormationBundle:Default:creation-entreprise-handicap.html.twig');
     }
     /**
      * @Route("/handicap")
