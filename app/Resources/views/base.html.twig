@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Education Home Page</title>
+    <title>{% block title %}{% endblock %}</title>
 
     <!-- Css Files -->
     <link href="{{ asset('template/css/bootstrap.css') }}" rel="stylesheet">
@@ -74,47 +74,46 @@
                                 </div>
                                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                                   <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">ACCUEIL</a></li>
-                                    <li><a href="about-us">GESTION DE CARRIERE</a>
+                                    <li class="active"><a href="">ACCUEIL</a></li>
+                                    <li><a href="gestion-de-carriere">GESTION DE CARRIERE</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Bilan de compétences</a></li>
-                                            <li><a href="event-grid">Validation des aquis de l'experience</a></li>
-                                            <li><a href="event-grid">Bilan Mi-Carriere</a></li>
-                                            <li><a href="event-grid">Coaching</a></li>
+                                            <li><a href="gestion-de-carriere/bilan-de-competences">Bilan de compétences</a></li>
+                                            <li><a href="gestion-de-carriere/validation-des-acquis-de-l-experience">Validation des aquis de l'experience</a></li>
+                                            <li><a href="gestion-de-carriere/bilan-mi-carriere">Bilan Mi-Carriere</a></li>
+                                            <li><a href="gestion-de-carriere/coaching">Coaching</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">FORMATIONS</a>
+                                    <li><a href="formations">FORMATIONS</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Informatique</a>
+                                            <li><a href="informatique">Informatique</a>
                                                 <ul class="education-dropdown-menu">
-                                                    <li><a href="event-grid">Concepteur Développeur Informatique</a></li>
-                                                    <li><a href="event-grid-wls">Administrateur Systèmes et Réseaux</a></li>
-                                                    <li><a href="event-grid-wrs">Technicien d'Assistance en Informatique</a></li>
-                                                    <li><a href="event-grid-wrs">Technicien Supérieur en Support Informatique</a></li>
+                                                    <li><a href="formations/concepteur-developpeur-informatique">Concepteur Développeur Informatique</a></li>
+                                                    <li><a href="formations/administrateur-systemes-et-reseaux">Administrateur Systèmes et Réseaux</a></li>
+                                                    <li><a href="formations/technicien-d-assistance-en-informatique">Technicien d'Assistance en Informatique</a></li>
+                                                    <li><a href="formationstechnicien-superieur-en-support-informatique">Technicien Supérieur en Support Informatique</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="event-list">Ressources Humaines</a></li>
-                                            <li><a href="event-list-wls">Management</a></li>
-                                            <li><a href="event-medium">Finance et comptabilité</a></li>
-                                            <li><a href="event-medium">Développement personnel</a></li>
-                                            <li><a href="event-medium">Hygiène et sécurité</a></li>
-                                            <li><a href="event-medium">Langues</a></li>
-                                            <li><a href="event-medium">Handicap</a></li>
+                                            <li><a href="formations/ressources-humaines">Ressources Humaines</a></li>
+                                            <li><a href="formations/management">Management</a></li>
+                                            <li><a href="formations/finance-et-comptabilite">Finance et comptabilité</a></li>
+                                            <li><a href="formations/developpement-personnel">Développement personnel</a></li>
+                                            <li><a href="formations/hygiene-et-securite">Hygiène et sécurité</a></li>
+                                            <li><a href="formations/langues">Langues</a></li>
+                                            <li><a href="formationshandicap">Handicap</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">CREATION D'ENTREPRISE</a>
+                                    <li><a href="creation-d-entreprise">CREATION D'ENTREPRISE</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="blog-large">Méthodologie</a></li>
-                                            <li><a href="blog-large">Financement</a></li>
-                                            <li><a href="blog-large">Formations et ateliers</a></li>
-                                            <li><a href="blog-large">Création d'activité handicap</a></li>
+                                            <li><a href="creation-d-entreprise/methodologie">Méthodologie</a></li>
+                                            <li><a href="creation-d-entreprise/financement">Financement</a></li>
+                                            <li><a href="creation-d-entreprise/formations-et-ateliers">Formations et ateliers</a></li>
                                         </ul>
                                     </li> 
                                   </ul>
                                 </div>
                             </nav>
                         </aside>
-                        <aside class="col-md-2"><a href="index" class="education-logo"><img src="http://www.alt-rh.com/img/alt-rh-logo.png" alt=""></a></aside>
+                        <aside class="col-md-2"><a href="" class="education-logo"><img src="http://www.alt-rh.com/img/alt-rh-logo.png" alt=""></a></aside>
                         <aside class="col-md-5">
                             <nav class="navbar navbar-default">
                                 <div class="navbar-header">
@@ -127,36 +126,36 @@
                                 </div>
                                 <div class="collapse navbar-collapse" id="navbar-collapse-2">
                                   <ul class="nav navbar-nav">
-                                     <li><a href="about-us">HANDICAP</a>
+                                     <li><a href="handicap">HANDICAP</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Prestations Agefiph</a></li>
-                                            <li><a href="event-grid">Diagnostic conseil</a></li>
-                                            <li><a href="event-grid">Bilan de maintien dans l'emploi</a></li>
-                                            <li><a href="event-grid">Ingénierie de formations TH</a></li>
-                                            <li><a href="event-grid">Création d'activité handicap</a></li>
+                                            <li><a href="handicap/prestations-agefiph">Prestations Agefiph</a></li>
+                                            <li><a href="handicap/diagnostic-conseil">Diagnostic conseil</a></li>
+                                            <li><a href="handicap/bilan-de-maintien-dans-l-emploi">Bilan de maintien dans l'emploi</a></li>
+                                            <li><a href="handicap/ingenierie-de-formations-th">Ingénierie de formations TH</a></li>
+                                            <li><a href="handicap/creation-d-activite-handicap">Création d'activité handicap</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about-us">RECRUTEMENT</a>
+                                    <li><a href="recrutement">RECRUTEMENT</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Méthodologie</a></li>
-                                            <li><a href="event-grid">Prestations de recrutement</a></li>
-                                            <li><a href="event-grid">Recrutement à l'international</a></li>
-                                            <li><a href="event-grid">Nos engagements</a></li>
+                                            <li><a href="recrutement/methodologie">Méthodologie</a></li>
+                                            <li><a href="recrutement/prestations-de-recrutement">Prestations de recrutement</a></li>
+                                            <li><a href="recrutement/recrutement-a-l-international">Recrutement à l'international</a></li>
+                                            <li><a href="recrutement/nos-engagements">Nos engagements</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about-us">OFFRES D'EMPLOI</a>
+                                    <li><a href="offres-d-emploi">OFFRES D'EMPLOI</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="shop-list">Espace Candidats</a></li>
-                                            <li><a href="event-grid">Espace Entreprise</a></li>
-                                            <li><a href="event-grid">Offres d'emploi et stages</a></li>
-                                            <li><a href="event-grid">Conseils du coach</a></li>
-                                            <li><a href="event-grid">Nos engagements</a></li>
+                                            <li><a href="offres-d-emploi/espace-candidats">Espace Candidats</a></li>
+                                            <li><a href="offres-d-emploi/espace-entreprise">Espace Entreprise</a></li>
+                                            <li><a href="offres-d-emploi/offres-d-emploi-et-stage">Offres d'emploi et stages</a></li>
+                                            <li><a href="offres-d-emploi/conseils-du-coach">Conseils du coach</a></li>
+                                            <li><a href="offres-d-emploi/nos-engagements">Nos engagements</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact-us">CONTACT</a>
+                                    <li><a href="contact">CONTACT</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="event-grid">Nos implantations</a></li>
-                                            <li><a href="event-grid">Nous contacter</a></li>
+                                            <li><a href="contact/nos-implantations">Nos implantations</a></li>
+                                            <li><a href="contact/nous-contacter">Nous contacter</a></li>
                                         </ul>
                                     </li> 
                                   </ul>
@@ -172,8 +171,227 @@
         <!--// Header \\-->
 
 {% block body %}{% endblock %}
+
+            <!--// Main Section \\-->
+            <div class="education-main-section education-partner-full">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="education-fancy-title">
+                                <i class="fa fa-graduation-cap"></i>
+                                <h2>Nos PARTENAIRES</h2>
+                            </div>
+                            <div class="education-partner">
+                                <ul>
+                                    <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-oseo.jpg') }}"  alt=""></a></li>
+                                    <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-afdas.jpg') }}"   alt=""></a></li>
+                                     <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-agefiph.jpg') }}"  alt=""></a></li>
+                                    <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-apec.jpg') }}"   alt=""></a></li>
+                                    <li><a href="404"><img src="{{ asset('img/partenaires/partenaire-banque-credit-agricole.jpg') }}"  alt=""></a></li>
+                                     <li><a href="404"><img src="{{ asset('img/partenaires/partenaire-banque-lcl.jpg') }}"  alt=""></a></li>
+                                    <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-enrope-sengage-en-france.jpg') }}"   alt=""></a></li>
+                                     <li><a href="404"><img src="{{ asset('img/partenaires/partenaire-centre-inffo.jpg') }}" alt=""></a></li>
+                                      <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-fafsea.jpg') }}"  alt=""></a></li>
+                                       <li><a href="404"><img src="{{ asset('img/partenaires/partenaire-ffp.jpg') }}"  alt=""></a></li>
+                                        <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-fongecif.jpg') }}"  alt=""></a></li>
+                                         <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-france-initiative.jpg') }}"  alt=""></a></li>
+                                          <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-opcalia.jpg') }}"  alt=""></a></li>
+                                           <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-pole-emploi.jpg') }}"   alt=""></a></li>
+                                            <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-unifaf.jpg') }}"  alt=""></a></li>
+                                             <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-uniformation.jpg') }}"   alt=""></a></li>
+                                              <li ><a href="404"><img src="{{ asset('img/partenaires/partenaire-val-d-oise-departement.jpg') }}"  alt=""></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Main Section \\-->
+
+            <!--// Main Section \\-->
+         
+            <div class="education-main-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="education-subscribe-newsletter">
+                                <img src="extra-images/news-latter-img.jpg" alt="">
+                                <div class="education-newslatter-text">
+                                    <h2>Subscribe To Our Newsletter</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ipsum maximus malesuada. Donec non ex faucibus, fringilla tellus eget, maximus arcu. Duis et eros nisl.</p>
+                                    <form>
+                                        <input type="text" value="Type Here" onblur="if(this.value == '') { this.value ='Type Here'; }" onfocus="if(this.value =='Type Here') { this.value = ''; }">
+                                        <label><input type="submit" value="Subscribe Now"></label>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!--// Main Section \\-->
+
+        </div>
+        <!--// Main Content \\-->
+
+
  
+ <!--// Footer \\--> 
+        <footer id="education-footer" class="education-footer-one"> 
+            <span class="education-footer-pattren"></span> 
+             
+            <!--// Footer Widget \\--> 
+            <div class="education-footer-widget"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <!--// Widget Contact Info \\--> 
+                        <aside class="col-md-4 widget widget_contact_info"> 
+                            <a href="index" class="education-footer-logo"><img src="images/footer-logo.png" alt=""></a> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat urna non ipsum maxim us malesuada.</p> 
+                            <ul> 
+                                <li><i class="education-color fa fa-home"></i> ALT RH Consulting
+                                        Tour Ernest & Young  
+                                        9-11 Allée de l'arche 
+                                        92671 Paris La Défense</li> 
+                                <li><i class="education-color fa fa-phone"></i>01 49 97 15 11</li> 
+                                <li><i class="education-color fa fa-envelope"></i> <a href="mailto:name@email.com">contact@alt-rh.com - </a> <a href="mailto:name@email.com">contact@alt-rh.com</a></li> 
+                            </ul> 
+                        </aside> 
+                        <!--// Widget Contact Info \\--> 
+                        <!--// Widget Featured Courses \\--> 
+                        <aside class="col-md-4 widget widget_featured_courses"> 
+                            <div class="education-footer-title"> <h4>Featured Courses</h4> </div> 
+                            <ul> 
+                                <li> 
+                                    <figure><a href="course-detail"><img src="extra-images/widget-featured-courses-1.jpg" alt=""></a> 
+                                        <figcaption> 
+                                            <h6><a href="course-detail">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6> 
+                                            <div class="star-rating"><span class="star-rating-box" style="width:54%"></span></div> 
+                                            <small>( 12 Reviews )</small> 
+                                        </figcaption> 
+                                    </figure> 
+                                </li> 
+                                <li> 
+                                    <figure><a href="course-detail"><img src="extra-images/widget-featured-courses-2.jpg" alt=""></a> 
+                                        <figcaption> 
+                                            <h6><a href="course-detail">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6> 
+                                            <div class="star-rating"><span class="star-rating-box" style="width:34%"></span></div> 
+                                            <small>( 12 Reviews )</small> 
+                                        </figcaption> 
+                                    </figure> 
+                                </li> 
+                                <li> 
+                                    <figure><a href="course-detail"><img src="extra-images/widget-featured-courses-3.jpg" alt=""></a> 
+                                        <figcaption> 
+                                            <h6><a href="course-detail">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6> 
+                                            <div class="star-rating"><span class="star-rating-box" style="width:85%"></span></div> 
+                                            <small>( 12 Reviews )</small> 
+                                        </figcaption> 
+                                    </figure> 
+                                </li> 
+                            </ul> 
+                        </aside> 
+                        <!--// Widget Featured Courses \\--> 
+                        <!--// Widget Gallery \\--> 
+                        <aside class="col-md-4 widget widget_gallery"> 
+                            <div class="education-footer-title"> <h4>Flicker Images</h4> </div> 
+                            <ul> 
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="extra-images/widget-gallery-1.jpg" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-2.jpg" class="fancybox"><img src="extra-images/widget-gallery-2.jpg" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-3.jpg" class="fancybox"><img src="extra-images/widget-gallery-3.jpg" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-4.jpg" class="fancybox"><img src="extra-images/widget-gallery-4.jpg" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-5.jpg" class="fancybox"><img src="extra-images/widget-gallery-5.jpg" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-6.jpg" class="fancybox"><img src="extra-images/widget-gallery-6.jpg" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-7.jpg" class="fancybox"><img src="extra-images/widget-gallery-7.jpg" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-8.jpg" class="fancybox"><img src="extra-images/widget-gallery-8.jpg" alt=""></a></li> 
+                            </ul> 
+                        </aside> 
+                        <!--// Widget Gallery \\--> 
+                    </div> 
+                </div> 
+            </div> 
+            <!--// Footer Widget \\--> 
  
+            <!--// CopyRight \\--> 
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col-md-12"> 
+                        <div class="education-copyright"> 
+                            <p>PROJECT ALT-RH CONSULTING© 2017. Tous droits réservés.
+                             <a href="index">Project Alt rh</a></p> 
+                            <ul> 
+                                <li><a href="404">Privacy</a></li> 
+                                <li><a href="404">Termes</a></li> 
+                                <li><a href="404">Plan du site</a></li> 
+                                <li><a href="404">Achat</a></li> 
+                            </ul> 
+                            <a href="#" class="education-back-top"><i class="fa fa-angle-up"></i></a> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+            <!--// CopyRight \\--> 
+ 
+        </footer> 
+        <!--// Footer \\--> 
+ 
+        <!--// Footer Parallax \\--> 
+ 
+    <div class="clearfix"></div> 
+    </div> 
+    <!--// Main Wrapper \\--> 
+ 
+    <!-- LoginModal --> 
+    <div class="loginmodal modal fade" id="loginModal" tabindex="-1" role="dialog"> 
+        <div class="modal-dialog" role="document"> 
+            <div class="education-login-box"> 
+                <a href="#" data-dismiss="modal" class="education-login-close"><i class="icon-uniF106"></i></a> 
+                <h4>CONNECTEZ À VOTRE COMPTE</h4> 
+                <form> 
+                    <input type="text" value="Enter username*" onblur="if(this.value == '') { this.value ='Enter username*'; }" onfocus="if(this.value =='Enter username*') { this.value = ''; }"> 
+                    <input type="password" value="Password*" onblur="if(this.value == '') { this.value ='Password*'; }" onfocus="if(this.value =='Password*') { this.value = ''; }"> 
+                    <a href="#">Mot de passe oublié?</a> 
+                    <div class="clearfix"></div> 
+                    <label><input type="submit" value="Sign In"></label> 
+                </form> 
+                <h4>Essayez Socials Network</h4> 
+                <ul class="login-network"> 
+                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li> 
+                    <li class="education-twitter"><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li> 
+                    <li class="education-google-plus"><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li> 
+                </ul> 
+                <p>Pas encore Membre? <a href="#" class="education-color">S'inscrire Maintenant!</a></p> 
+            </div> 
+        <div class="clearfix"></div> 
+        </div> 
+    </div> 
+ 
+    <!-- SignupModal --> 
+    <div class="loginmodal modal fade" id="signupModal" tabindex="-1" role="dialog"> 
+        <div class="modal-dialog" role="document"> 
+            <div class="education-login-box"> 
+                <a href="#" data-dismiss="modal" class="education-login-close education-color"><i class="icon-uniF106"></i></a> 
+                <h4>S'inscrire Maintenant</h4> 
+                <form> 
+                    <input type="text" value="Enter username*" onblur="if(this.value == '') { this.value ='Enter username*'; }" onfocus="if(this.value =='Enter username*') { this.value = ''; }"> 
+                    <input type="text" value="Type your password*" onblur="if(this.value == '') { this.value ='Type your password*'; }" onfocus="if(this.value =='Type your password*') { this.value = ''; }"> 
+                    <input type="text" value="Confirm your password*" onblur="if(this.value == '') { this.value ='Confirm your password*'; }" onfocus="if(this.value =='Confirm your password*') { this.value = ''; }"> 
+                    <a href="#">Mot de passe oublié?</a> 
+                    <div class="clearfix"></div> 
+                    <label><input type="submit" value="Sign Up"></label> 
+                </form> 
+                <h4>Essayez Socials Network</h4> 
+                <ul class="login-network"> 
+                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li> 
+                    <li class="education-twitter"><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li> 
+                    <li class="education-google-plus"><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li> 
+                </ul> 
+                <p>Pas encore Membre ? <a href="#" class="education-color">Login - Maintenant !</a></p> 
+            </div> 
+        <div class="clearfix"></div> 
+        </div> 
+    </div>  
     <!-- jQuery (necessary for JavaScript plugins) -->
     <script type="text/javascript" src="{{ asset('template/script/jquery.js') }}"></script>
     <script type="text/javascript" src="{{ asset('template/script/bootstrap.min.js') }}"></script>

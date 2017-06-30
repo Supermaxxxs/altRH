@@ -25,365 +25,347 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/about-us")
+     * @Route("/gestion-de-carriere")
      */
 
-    public function aboutUsAction()
+    public function gestionCarriereAction()
     {
-        return $this->render('FormationBundle:Default:about-us.html.twig');
+        return $this->render('FormationBundle:Default:gestion-de-carriere.html.twig');
     }
     /**
-     * @Route("/blog-detail")
+     * @Route("/gestion-de-carriere/bilan-de-competences")
      */
 
-    public function blogDetailAction()
+    public function bilanCompetencesAction()
     {
-        return $this->render('FormationBundle:Default:blog-detail.html.twig');
+        return $this->render('FormationBundle:Default:bilan-de-competences.html.twig');
     }
     /**
-     * @Route("/blog-detail-wls")
+     * @Route("/gestion-de-carriere/validation-des-acquis-de-l-experience")
      */
 
-    public function blogDetailWlsAction()
+    public function validationAcquisExperienceAction()
     {
-        return $this->render('FormationBundle:Default:blog-detail-wls.html.twig');
+        return $this->render('FormationBundle:Default:validation-des-acquis-de-l-experience.html.twig');
     }
     /**
-     * @Route("/blog-grid")
+     * @Route("/gestion-de-carriere/bilan-mi-carriere")
      */
 
-    public function blogGridAction()
+    public function bilanMiCarriereAction()
     {
-        return $this->render('FormationBundle:Default:blog-grid.html.twig');
+        return $this->render('FormationBundle:Default:bilan-mi-carriere.html.twig');
     }
     /**
-     * @Route("/blog-grid-wls")
+     * @Route("/gestion-de-carriere/coaching")
      */
 
-    public function blogGridWlsAction()
+    public function coachingAction()
     {
-        return $this->render('FormationBundle:Default:blog-grid-wls.html.twig');
+        return $this->render('FormationBundle:Default:coaching.html.twig');
     }
     /**
-     * @Route("/blog-grid-wrs")
+     * @Route("/formations")
      */
 
-    public function blogGridWrsAction()
+    public function formationsAction()
     {
-        return $this->render('FormationBundle:Default:blog-grid-wrs.html.twig');
+        return $this->render('FormationBundle:Default:formations.html.twig');
     }
     /**
-     * @Route("/blog-large")
+     * @Route("/formations/informatique")
      */
 
-    public function blogLargeAction()
+    public function informatiqueAction()
     {
-        return $this->render('FormationBundle:Default:blog-large.html.twig');
+        return $this->render('FormationBundle:Default:informatique.html.twig');
     }
     /**
-     * @Route("/blog-large-wls")
+     * @Route("/formations/concepteur-developpeur-informatique")
      */
 
-    public function blogLargeWlsAction()
+    public function concepteurDeveloppeurInformatiqueAction()
     {
-        return $this->render('FormationBundle:Default:blog-large-wls.html.twig');
+        return $this->render('FormationBundle:Default:concepteur-developpeur-informatique.html.twig');
     }
     /**
-     * @Route("/blog-medium")
+     * @Route("/formations/administrateur-systemes-et-reseaux")
      */
 
-    public function blogMediumAction()
+    public function administrateurSystemesEtReseauxAction()
     {
-        return $this->render('FormationBundle:Default:blog-medium.html.twig');
+        return $this->render('FormationBundle:Default:administrateur-systemes-et-reseaux.html.twig');
     }
     /**
-     * @Route("/contact-us")
+     * @Route("/formations/technicien-d-assistance-en-informatique")
      */
 
-    public function contactUsAction()
+    public function technicienAssistanceEnInformatiqueAction()
     {
-        return $this->render('FormationBundle:Default:contact-us.html.twig');
+        return $this->render('FormationBundle:Default:technicien-d-assistance-en-informatique.html.twig');
     }
     /**
-     * @Route("/course-detail")
+     * @Route("/formations/technicien-superieur-en-support-informatique")
      */
 
-    public function courseDetailAction()
+    public function technicienSuperieurEnSupportInformatiqueAction()
     {
-        return $this->render('FormationBundle:Default:course-detail.html.twig');
+        return $this->render('FormationBundle:Default:technicien-superieur-en-support-informatique.html.twig');
     }
     /**
-     * @Route("/course-detail-wls")
+     * @Route("/formations/ressources-humaines")
      */
 
-    public function courseDetailWlsAction()
+    public function ressourcesHumainesAction()
     {
-        return $this->render('FormationBundle:Default:course-detail-wls.html.twig');
+        return $this->render('FormationBundle:Default:ressources-humaines.html.twig');
     }
     /**
-     * @Route("/course-grid")
+     * @Route("/formations/management")
      */
 
-    public function courseGridAction()
+    public function managementAction()
     {
-        return $this->render('FormationBundle:Default:course-grid.html.twig');
+        return $this->render('FormationBundle:Default:management.html.twig');
     }
     /**
-     * @Route("/course-grid-wls")
+     * @Route("/formations/finance-et-comptabilite")
      */
 
-    public function courseGridWlsAction()
+    public function financeEtComptabiliteAction()
     {
-        return $this->render('FormationBundle:Default:course-grid-wls.html.twig');
+        return $this->render('FormationBundle:Default:finance-et-comptabilite.html.twig');
     }
     /**
-     * @Route("/course-grid-wrs")
+     * @Route("/formations/developpement-personnel")
      */
 
-    public function courseGridWrsAction()
+    public function developpementPersonnelAction()
     {
-        return $this->render('FormationBundle:Default:course-grid-wrs.html.twig');
+        return $this->render('FormationBundle:Default:developpement-personnel.html.twig');
     }
     /**
-     * @Route("/course-list")
+     * @Route("/formations/hygiene-et-securite")
      */
 
-    public function courseListAction()
+    public function hygieneEtSecuriteAction()
     {
-        return $this->render('FormationBundle:Default:course-list.html.twig');
+        return $this->render('FormationBundle:Default:hygiene-et-securite.html.twig');
     }
     /**
-     * @Route("/course-list-wls")
+     * @Route("/formations/langues")
      */
 
-    public function courseListWlsAction()
+    public function languesAction()
     {
-        return $this->render('FormationBundle:Default:course-list-wls.html.twig');
+        return $this->render('FormationBundle:Default:langues.html.twig');
     }
     /**
-     * @Route("/course-modren")
+     * @Route("/formations/handicap")
      */
 
-    public function courseModrenAction()
+    public function formationHandicapAction()
     {
-        return $this->render('FormationBundle:Default:course-modren.html.twig');
+        return $this->render('FormationBundle:Default:handicap.html.twig');
     }
     /**
-     * @Route("/course-modren-wls")
+     * @Route("/creation-d-entreprise")
      */
 
-    public function courseModrenWlsAction()
+    public function creationEntrepriseAction()
     {
-        return $this->render('FormationBundle:Default:course-modren-wls.html.twig');
+        return $this->render('FormationBundle:Default:creation-d-entreprise.html.twig');
     }
     /**
-     * @Route("/course-modren-wrs")
+     * @Route("/creation-d-entreprise/methodologie")
      */
 
-    public function courseModrenWrsAction()
+    public function methodologieAction()
     {
-        return $this->render('FormationBundle:Default:course-modren-wrs.html.twig');
+        return $this->render('FormationBundle:Default:methodologie.html.twig');
     }
     /**
-     * @Route("/event-detail")
+     * @Route("/creation-d-entreprise/financement")
      */
 
-    public function eventDetailAction()
+    public function financementAction()
     {
-        return $this->render('FormationBundle:Default:event-detail.html.twig');
+        return $this->render('FormationBundle:Default:financement.html.twig');
     }
     /**
-     * @Route("/event-detail-wls")
+     * @Route("/creation-d-entreprise/formations-et-ateliers")
      */
 
-    public function eventDetailWlsAction()
+    public function formationsEtAteliersAction()
     {
-        return $this->render('FormationBundle:Default:event-detail-wls.html.twig');
+        return $this->render('FormationBundle:Default:formations-et-ateliers.html.twig');
     }
     /**
-     * @Route("/event-grid")
+     * @Route("/creation-d-entreprise/handicap")
      */
 
-    public function eventGridAction()
+    public function creationEntrepriseHandicapAction()
     {
-        return $this->render('FormationBundle:Default:event-grid.html.twig');
+        return $this->render('FormationBundle:Default:handicap.html.twig');
     }
     /**
-     * @Route("/event-grid-wls")
+     * @Route("/handicap")
      */
 
-    public function eventGridWlsAction()
+    public function handicapAction()
     {
-        return $this->render('FormationBundle:Default:event-grid-wls.html.twig');
+        return $this->render('FormationBundle:Default:handicap.html.twig');
     }
     /**
-     * @Route("/event-grid-wrs")
+     * @Route("/handicap/prestations-agefiph")
      */
 
-    public function eventGridWrsAction()
+    public function prestationsAgefiphAction()
     {
-        return $this->render('FormationBundle:Default:event-grid-wrs.html.twig');
+        return $this->render('FormationBundle:Default:prestations-agefiph.html.twig');
     }
     /**
-     * @Route("/event-list")
+     * @Route("/handicap/diagnostic-conseil")
      */
 
-    public function eventListAction()
+    public function diagnosticConseilAction()
     {
-        return $this->render('FormationBundle:Default:event-list.html.twig');
+        return $this->render('FormationBundle:Default:diagnostic-conseil.html.twig');
     }
     /**
-     * @Route("/event-list-wls")
+     * @Route("/handicap/bilan-de-maintien-dans-l-emploi")
      */
 
-    public function eventListWlsAction()
+    public function bilanDeMaintienDansEmploiAction()
     {
-        return $this->render('FormationBundle:Default:event-list-wls.html.twig');
+        return $this->render('FormationBundle:Default:bilan-de-maintien-dans-l-emploi.html.twig');
     }
     /**
-     * @Route("/event-medium")
+     * @Route("/handicap/ingenierie-de-formations-th")
      */
 
-    public function eventMediumAction()
+    public function ingenierieDeFormationsThAction()
     {
-        return $this->render('FormationBundle:Default:event-medium.html.twig');
+        return $this->render('FormationBundle:Default:ingenierie-de-formations-th.html.twig');
     }
     /**
-     * @Route("/faq")
+     * @Route("/handicap/creation-d-activite-handicap")
      */
 
-    public function faqAction()
+    public function creationActiviteHandicapAction()
     {
-        return $this->render('FormationBundle:Default:faq.html.twig');
+        return $this->render('FormationBundle:Default:creation-d-activite-handicap.html.twig');
     }
     /**
-     * @Route("/gallery")
+     * @Route("/recrutement")
      */
 
-    public function galleryAction()
+    public function recrutementAction()
     {
-        return $this->render('FormationBundle:Default:gallery.html.twig');
+        return $this->render('FormationBundle:Default:recrutement.html.twig');
     }
     /**
-     * @Route("/gallery-view-two")
+     * @Route("recrutement/methodologie")
      */
 
-    public function galleryViewTwoAction()
+    public function recrutementMethodologieAction()
     {
-        return $this->render('FormationBundle:Default:gallery-view-two.html.twig');
+        return $this->render('FormationBundle:Default:methodologie.html.twig');
     }
     /**
-     * @Route("/index-two")
+     * @Route("recrutement/prestations-de-recrutement")
      */
 
-    public function indexTwoAction()
+    public function prestationsRecrutementAction()
     {
-        return $this->render('FormationBundle:Default:index-two.html.twig');
+        return $this->render('FormationBundle:Default:prestations-de-recrutement.html.twig');
     }
     /**
-     * @Route("/search-result")
+     * @Route("recrutement/recrutement-a-l-international")
      */
 
-    public function searchResultAction()
+    public function recrutementInternationalAction()
     {
-        return $this->render('FormationBundle:Default:search-result.html.twig');
+        return $this->render('FormationBundle:Default:recrutement-a-l-international.html.twig');
     }
     /**
-     * @Route("/shop-detail")
+     * @Route("recrutement/nos-engagements")
      */
 
-    public function shopDetailAction()
+    public function nosEngagementsAction()
     {
-        return $this->render('FormationBundle:Default:shop-detail.html.twig');
+        return $this->render('FormationBundle:Default:nos-engagements.html.twig');
     }
     /**
-     * @Route("/shop-detail-wls")
+     * @Route("/offres-d-emploi")
      */
 
-    public function shopDetailWlsAction()
+    public function offresEmploiAction()
     {
-        return $this->render('FormationBundle:Default:shop-detail-wls.html.twig');
+        return $this->render('FormationBundle:Default:offres-d-emploi.html.twig');
     }
     /**
-     * @Route("/shop-grid")
+     * @Route("/offres-d-emploi/espace-candidats")
      */
 
-    public function shopGridAction()
+    public function espaceCandidatsAction()
     {
-        return $this->render('FormationBundle:Default:shop-grid.html.twig');
+        return $this->render('FormationBundle:Default:espace-candidats.html.twig');
     }
     /**
-     * @Route("/shop-grid-wls")
+     * @Route("/offres-d-emploi/espace-entreprise")
      */
 
-    public function shopGridWlsAction()
+    public function espaceEntrepriseAction()
     {
-        return $this->render('FormationBundle:Default:shop-grid-wls.html.twig');
+        return $this->render('FormationBundle:Default:espace-entreprise.html.twig');
     }
     /**
-     * @Route("/shop-grid-wrs")
+     * @Route("/offres-d-emploi/offres-d-emploi-et-stage")
      */
 
-    public function shopGridWrsAction()
+    public function offresEmploiEtStageAction()
     {
-        return $this->render('FormationBundle:Default:shop-grid-wrs.html.twig');
+        return $this->render('FormationBundle:Default:offres-d-emploi-et-stage.html.twig');
     }
     /**
-     * @Route("/shop-list")
+     * @Route("/offres-d-emploi/conseils-du-coach")
      */
 
-    public function shopListAction()
+    public function conseilsDuCoachAction()
     {
-        return $this->render('FormationBundle:Default:shop-list.html.twig');
+        return $this->render('FormationBundle:Default:conseils-du-coach.html.twig');
     }
     /**
-     * @Route("/shop-list-wls")
+     * @Route("/offres-d-emploi/nos-engagements")
      */
 
-    public function shopListWlsAction()
+    public function OENosEngagementsAction()
     {
-        return $this->render('FormationBundle:Default:shop-list-wls.html.twig');
+        return $this->render('FormationBundle:Default:nos-engagements.html.twig');
     }
     /**
-     * @Route("/shop-list-wrs")
+     * @Route("/contact")
      */
 
-    public function shopListWrsAction()
+    public function contactAction()
     {
-        return $this->render('FormationBundle:Default:shop-list-wrs.html.twig');
+        return $this->render('FormationBundle:Default:contact.html.twig');
     }
     /**
-     * @Route("/team-grid")
+     * @Route("/contact/nos-implantations")
      */
 
-    public function teamGridAction()
+    public function nosImplantationsAction()
     {
-        return $this->render('FormationBundle:Default:team-grid.html.twig');
+        return $this->render('FormationBundle:Default:nos-implantations.html.twig');
     }
     /**
-     * @Route("/team-grid-wls")
+     * @Route("/contact/nous-contacter")
      */
 
-    public function teamGridWlsAction()
+    public function nousContacterAction()
     {
-        return $this->render('FormationBundle:Default:team-grid-wls.html.twig');
+        return $this->render('FormationBundle:Default:nous-contacter.html.twig');
     }
-    /**
-     * @Route("/team-grid-wrs")
-     */
-
-    public function teamGridWrsAction()
-    {
-        return $this->render('FormationBundle:Default:team-grid-wrs.html.twig');
-    }
-
-    /**
-     * @Route("/espace-candidat")
-     */
-
-    public function espaceCandidatAction()
-    {
-        return $this->render('FormationBundle:Default:espace-candidat.html.twig');
-    }
-    
 }
