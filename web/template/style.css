@@ -119,7 +119,7 @@ figure {
 }
 img {
     height: auto;
-    max-width: 100%;
+    max-width: 80%;
 }
 strong {
     color: #262626;
@@ -186,7 +186,7 @@ option {
     padding: 5px 15px;
 }
 li {
-    line-height: 12px;
+    line-height: 28px;
     list-style: inside none disc;
 }
 ul ul {
@@ -367,10 +367,10 @@ address { font-style: italic; }
 }
 /* MainHeader */
 .education-main-header {
-    float: left;
+    float: right;
     width: 100%;
     background-color: #ffffff;
-    text-align: center;
+    text-align: left;
 }
 .education-logo {
     float: left;
@@ -387,7 +387,7 @@ address { font-style: italic; }
     text-align: left;
 }
 .navbar-nav > li {
-    padding: 45px 20px 30px 20px;
+    padding: 95px 5px 95px 5px;
 }
 .navbar-nav > li:first-child { padding-left: 0px; }
 .navbar-nav > li:last-child { padding-right: 0px; }
