@@ -76,38 +76,40 @@
                                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                                   <ul class="nav navbar-nav">
                                     <li class="active"><a href="">ACCUEIL</a></li>
-                                    <li><a href="gestion-de-carriere">GESTION DE CARRIERE</a>
+                                    <li><a href={{ path('gestionCarriere') }}>GESTION DE CARRIERE</a>
+
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="gestion-de-carriere/bilan-de-competences">Bilan de compétences</a></li>
-                                            <li><a href="gestion-de-carriere/validation-des-acquis-de-l-experience">Validation des aquis de l'experience</a></li>
-                                            <li><a href="gestion-de-carriere/bilan-mi-carriere">Bilan Mi-Carriere</a></li>
-                                            <li><a href="gestion-de-carriere/coaching">Coaching</a></li>
+                                            <li><a href={{path('bilanCompetence')}}>Bilan de compétences</a></li>
+                                            <li><a href={{path('validationAcquis')}}>Validation des aquis de l'experience</a></li>
+                                            <li><a href={{path('bilanMiCarriere')}}>Bilan Mi-Carriere</a></li>
+                                            <li><a href={{path('coching')}}>Coaching</a></li>
                                         </ul>
+
                                     </li>
                                     <li><a href="formations">FORMATIONS</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="informatique">Informatique</a>
+                                            <li><a href={{path('formation')}}>Informatique</a>
                                                 <ul class="education-dropdown-menu">
-                                                    <li><a href="formations/concepteur-developpeur-informatique">Concepteur Développeur Informatique</a></li>
-                                                    <li><a href="formations/administrateur-systemes-et-reseaux">Administrateur Systèmes et Réseaux</a></li>
-                                                    <li><a href="formations/technicien-d-assistance-en-informatique">Technicien d'Assistance en Informatique</a></li>
-                                                    <li><a href="formationstechnicien-superieur-en-support-informatique">Technicien Supérieur en Support Informatique</a></li>
+                                                    <li><a href={{path('conceptDev')}}>Concepteur Développeur Informatique</a></li>
+                                                    <li><a href={{path('adminReso')}}>Administrateur Systèmes et Réseaux</a></li>
+                                                    <li><a href={{path('techAssist')}}>Technicien d'Assistance en Informatique</a></li>
+                                                    <li><a href={{path('techSup')}}>Technicien Supérieur en Support Informatique</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="formations/ressources-humaines">Ressources Humaines</a></li>
-                                            <li><a href="formations/management">Management</a></li>
-                                            <li><a href="formations/finance-et-comptabilite">Finance et comptabilité</a></li>
-                                            <li><a href="formations/developpement-personnel">Développement personnel</a></li>
-                                            <li><a href="formations/hygiene-et-securite">Hygiène et sécurité</a></li>
-                                            <li><a href="formations/langues">Langues</a></li>
-                                            <li><a href="formationshandicap">Handicap</a></li>
+                                            <li><a href={{path('formationRh')}}>Ressources Humaines</a></li>
+                                            <li><a href={{path('management')}}>Management</a></li>
+                                            <li><a href={{path('compta')}}>Finance et comptabilité</a></li>
+                                            <li><a href={{path('devPerso')}}>Développement personnel</a></li>
+                                            <li><a href={{path('hygieneSecur')}}>Hygiène et sécurité</a></li>
+                                            <li><a href={{path('langue')}}>Langues</a></li>
+                                            <li><a href={{path('handicap')}}>Handicap</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="creation-d-entreprise">CREATION D'ENTREPRISE</a>
+                                    <li><a href={{path('creationEntreprise')}}>CREATION D'ENTREPRISE</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="creation-d-entreprise/methodologie">Méthodologie</a></li>
-                                            <li><a href="creation-d-entreprise/financement">Financement</a></li>
-                                            <li><a href="creation-d-entreprise/formations-et-ateliers">Formations et ateliers</a></li>
+                                            <li><a href={{path('methodologieEntrprise')}}>Méthodologie</a></li>
+                                            <li><a href={{path('financementEentreprise')}}>Financement</a></li>
+                                            <li><a href= {{path('formatioAtelier')}}>Formations et ateliers</a></li>
                                         </ul>
                                     </li> 
                                   </ul>
@@ -127,30 +129,30 @@
                                 </div>
                                 <div class="collapse navbar-collapse" id="navbar-collapse-2">
                                   <ul class="nav navbar-nav">
-                                     <li><a href="handicap">HANDICAP</a>
+                                     <li><a href={{path('hadic')}}>HANDICAP</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="handicap/prestations-agefiph">Prestations Agefiph</a></li>
-                                            <li><a href="handicap/diagnostic-conseil">Diagnostic conseil</a></li>
-                                            <li><a href="handicap/bilan-de-maintien-dans-l-emploi">Bilan de maintien dans l'emploi</a></li>
-                                            <li><a href="handicap/ingenierie-de-formations-th">Ingénierie de formations TH</a></li>
-                                            <li><a href="handicap/creation-d-activite-handicap">Création d'activité handicap</a></li>
+                                            <li><a href= {{path('prestationsAgefiph')}}>Prestations Agefiph</a></li>
+                                            <li><a href={{path('diagnostiqueConseil')}}>Diagnostic conseil</a></li>
+                                            <li><a href={{path('maintienEmploiHandicap')}}>Bilan de maintien dans l'emploi</a></li>
+                                            <li><a href={{path('handicapInge')}}>Ingénierie de formations TH</a></li>
+                                            <li><a href={{path('creationActivHandicap')}}>Création d'activité handicap</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="recrutement">RECRUTEMENT</a>
+                                    <li><a href={{path('recrutement')}}>RECRUTEMENT</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="recrutement/methodologie">Méthodologie</a></li>
-                                            <li><a href="recrutement/prestations-de-recrutement">Prestations de recrutement</a></li>
-                                            <li><a href="recrutement/recrutement-a-l-international">Recrutement à l'international</a></li>
-                                            <li><a href="recrutement/nos-engagements">Nos engagements</a></li>
+                                            <li><a href={{path('RecrutMetho')}}>Méthodologie</a></li>
+                                            <li><a href={{path('prestRecrutement')}}>Prestations de recrutement</a></li>
+                                            <li><a href={{path('recrutInternational')}}>Recrutement à l'engagementinternational</a></li>
+                                            <li><a href={{path('engagement')}}>Nos engagements</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="offres-d-emploi">OFFRES D'EMPLOI</a>
+                                    <li><a href={{path('offreEmploi')}}>OFFRES D'EMPLOI</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="offres-d-emploi/espace-candidats">Espace Candidats</a></li>
-                                            <li><a href="offres-d-emploi/espace-entreprise">Espace Entreprise</a></li>
-                                            <li><a href="offres-d-emploi/offres-d-emploi-et-stage">Offres d'emploi et stages</a></li>
-                                            <li><a href="offres-d-emploi/conseils-du-coach">Conseils du coach</a></li>
-                                            <li><a href="offres-d-emploi/nos-engagements">Nos engagements</a></li>
+                                            <li><a href={{path('espaceCandiadat')}}>Espace Candidats</a></li>
+                                            <li><a href={{path('espaceEntreprise')}}>Espace Entreprise</a></li>
+                                            <li><a href={{path('offreStage')}}>Offres d'emploi et stages</a></li>
+                                            <li><a href={{path('conseilCoach')}}>Conseils du coach</a></li>
+                                            <li><a href={{path('engagementEmploi')}}>Nos engagements</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contact">CONTACT</a>
