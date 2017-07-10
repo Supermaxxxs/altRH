@@ -1,0 +1,75 @@
+{% extends '::base.html.twig' %}
+{% block title %} Connexion{% endblock %}
+{% block body %}
+
+
+<div class="education-subheader">
+            <span class="subheader-transparent"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="education-subheader-title"><h1>CONNECTEZ-VOUS</h1></div>
+                        <ul class="education-breadcrumb">
+                            <li><a href="index.html"></a></li>
+							<li><i class="fa fa-long-arrow-right"></i></li>
+                            <li></li>
+                            <li><i class="fa fa-long-arrow-right"></i></li>
+                            <li class="active"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="container">    
+        <div id="loginbox" style="margin-top:100px;" class="mainbox col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-3">                    
+            <div class="panel panel-info" >
+                    <div class="panel-heading">
+                        <div class="panel-title">Connection</div>
+                    </div> 
+                    
+  <div style="padding-top:30px" class="panel-body"  >
+
+                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                            
+                        {% form_theme form 'bootstrap_3_layout.html.twig' %}
+
+ 						             {{ form_start(form, {'attr': {'class': 'form-horizontal'}}) }}
+
+  {# Les erreurs générales du formulaire. #}
+  						          {{ form_errors(form) }}
+                                    
+                
+
+    						<div class="input-group" style="margin-bottom: 25px ; margin-left: 20px;">
+     						  <span class="input-group-addon" ><i class="glyphicon glyphicon-user"></i></span>
+      						{{ form_widget(form.mail, {'attr': {'class': 'form-control' , 'placeholder': 'votre email' }}
+                  ) }}
+                  {{ form_errors(form.mail) }}
+   							 </div>
+   							 
+                                
+                
+    					
+
+    						<div class="input-group" style="margin-bottom: 25px ; margin-left: 20px;" >
+     						<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      						{{ form_widget(form.mdp, {'attr': {'class': 'form-control' , 'placeholder': 'votre password'}}) }}
+                    {{ form_errors(form.mdp) }}
+   							 </div>
+                  
+                  <div class="input-group" style="margin-bottom: 25px ; margin-left: 20px;" >
+                  {{ form_widget(form.connecter, { 'attr' : { 'class' : 'btn btn-info'}} )}}
+                  </div>
+
+                               
+                  {{ form_end(form) }}
+                
+
+                  <p style="margin-bottom: 25px ; margin-left: 20px;">Pas encore inscrit, <a href="{{ path('insererPersonne') }}">c'est içi</a></p>     
+
+                    </div>                     
+                    </div> 
+         </div>
+        </div>
+ {% endblock %}

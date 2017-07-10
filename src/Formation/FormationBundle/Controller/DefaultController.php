@@ -8,7 +8,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/", name="index")
      */
     public function indexAction()
     {
@@ -287,7 +287,7 @@ class DefaultController extends Controller
 
     public function recrutementInternationalAction()
     {
-        return $this->render('FormationBundle:Default:recrutement-a-l-international.html.twig');
+        return $this->render('FormationBundle:Default:recrutements-a-l-international.html.twig');
     }
     /**
      * @Route("recrutement/nos-engagements", name="engagement")
@@ -346,7 +346,7 @@ class DefaultController extends Controller
         return $this->render('FormationBundle:Default:nos-engagements.html.twig');
     }
     /**
-     * @Route("/contact")
+     * @Route("/contact", name="contact")
      */
 
     public function contactAction()
