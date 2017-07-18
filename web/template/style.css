@@ -5,52 +5,52 @@
 /*
 01. Theme Typo
 02. Header
-	02.1 Top Strip
-		02.1.1 Top Info
-		02.1.2 Search
-	02.1 Logo
-	02.2 Navigation
-		02.2.1 SubMenu
-		02.2.1 MegaMenu
+    02.1 Top Strip
+        02.1.1 Top Info
+        02.1.2 Search
+    02.1 Logo
+    02.2 Navigation
+        02.2.1 SubMenu
+        02.2.1 MegaMenu
 03. Content
 
-	03.1 Blog
-		03.1.2 Blog Grid
-		03.1.3 Blog Large
-		03.1.4 Blog Detail
+    03.1 Blog
+        03.1.2 Blog Grid
+        03.1.3 Blog Large
+        03.1.4 Blog Detail
  
-	03.3 Default Pages Style
-		03.3.1 404
-		03.3.2 Services
-		03.3.3 No Search Result
-		03.3.4 Contact Us
+    03.3 Default Pages Style
+        03.3.1 404
+        03.3.2 Services
+        03.3.3 No Search Result
+        03.3.4 Contact Us
         03.3.5 PricePlan
         03.3.6 Faq
         03.3.7 About Us
 
-	03.4 Projects
-		03.4.1 Project Grid
-		03.4.2 Project medium
-		03.4.3 Project Modren
-		03.4.4 Artist Detail
+    03.4 Projects
+        03.4.1 Project Grid
+        03.4.2 Project medium
+        03.4.3 Project Modren
+        03.4.4 Artist Detail
 
-	03.5 Team
-		03.5.1 Team Grid
-		03.5.2 Team Detail
+    03.5 Team
+        03.5.1 Team Grid
+        03.5.2 Team Detail
 
-	03.6 Shop
-		03.6.1 Shop Grid
-		03.6.2 Shop Detail
+    03.6 Shop
+        03.6.1 Shop Grid
+        03.6.2 Shop Detail
  
 04. Sidebar Widget
-	04.1 Widget CATEGORY WIDGET
-	04.2 Widget Latest News
-	04.3 Widget Calendar Archive
-	04.4 Widget Text
-	04.5 Widget Recent Posts
-	04.7 Widget Intagram Photos
-	04.8 Popular Tags
-	04.9 User Links
+    04.1 Widget CATEGORY WIDGET
+    04.2 Widget Latest News
+    04.3 Widget Calendar Archive
+    04.4 Widget Text
+    04.5 Widget Recent Posts
+    04.7 Widget Intagram Photos
+    04.8 Popular Tags
+    04.9 User Links
  
 05. Footer
     05.1 Footer Widgets
@@ -119,7 +119,7 @@ figure {
 }
 img {
     height: auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 strong {
     color: #262626;
@@ -246,17 +246,17 @@ table > tbody + tbody {
 p ins {
     color: #999;
 }
-dl dd 	{ margin-left: 20px; }
+dl dd   { margin-left: 20px; }
 address { font-style: italic; }
 .sticky {}
 .education-main-section {
-	float: left;
-	width: 100%;
-	position: relative;
+    float: left;
+    width: 100%;
+    position: relative;
 }
-.education-main-content 	{ padding: 100px 0px 60px 0px; }
-.education-right-section 	{ float: right; }
-.education-left-section 	{ float: left; }
+.education-main-content     { padding: 100px 0px 60px 0px; }
+.education-right-section    { float: right; }
+.education-left-section     { float: left; }
 .education-main-wrapper,#education-header,.education-userinfo,
 .education-main-content {
     float: left;
@@ -367,10 +367,10 @@ address { font-style: italic; }
 }
 /* MainHeader */
 .education-main-header {
-    float: right;
+    float: left;
     width: 100%;
     background-color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
 .education-logo {
     float: left;
@@ -387,7 +387,7 @@ address { font-style: italic; }
     text-align: left;
 }
 .navbar-nav > li {
-    padding: 95px 5px 95px 5px;
+    padding: 45px 28px 30px 28px;
 }
 .navbar-nav > li:first-child { padding-left: 0px; }
 .navbar-nav > li:last-child { padding-right: 0px; }
@@ -540,7 +540,7 @@ address { font-style: italic; }
 #education-footer {
     float: left;
     width: 100%;
-    background: url(extra-images/footer-bg.jpg);
+    /* background: url(extra-images/footer-bg.jpg);*/
     background-size: cover;
     position: relative;
     padding: 110px 0px 0px 0px;

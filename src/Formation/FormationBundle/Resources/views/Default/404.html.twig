@@ -1,0 +1,58 @@
+        {% extends '::base.html.twig' %}
+        {% block title %}Erreur 404{% endblock %} 
+      
+        {% block body %}
+
+        <!--// SubHeader \\-->
+        <div class="education-subheader">
+            <span class="subheader-transparent"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="education-subheader-title"><h1>Erreur 404</h1></div>
+                        <ul class="education-breadcrumb">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><i class="fa fa-long-arrow-right"></i></li>
+                            <li class="active">Erreur 404</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// SubHeader \\-->
+
+		<!--// Main Content \\-->
+		<div class="education-main-content education-error-pagefull">
+
+			<!--// Main Section \\-->
+			<div class="education-main-section">
+				<div class="container">
+					<div class="row">
+						
+                        <!--// Fixture Slider \\-->
+						<div class="col-md-12">
+                            <div class="education-Error-page">
+                                <h3>Erreur</h3>
+                                <h2>404</h2>
+                                <h4>Page indisponible</h4>
+                                <p>Il semblerait qu'une souris ronge votre cable ethernet. Retour à la page d' <a href="index">Accueil</a>.</p>
+                                <p>Si vous n'êtes pas aussi rapide que speedy gonzales la redirection se fera automatiquement ! </p>
+                            </div>
+                        </div>
+                        <!--// Fixture Slider \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+		</div>
+		<!--// Main Content \\-->
+
+
+ 
+<script language="javaScript">
+window.setTimeout("location=('index');",10000);
+</script>
+                {% endblock %}
+

@@ -6,7 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{% block title %}{% endblock %}</title>
-
+<style>
+#imgbox1
+{
+    width:50px;
+}
+#imgbox2
+{
+    padding-top:10px;
+    width:50px;
+}
+#imgbox3
+{
+    width:50px;
+}
+</style>
     <!-- Css Files -->
     <link href="{{ asset('template/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('template/css/font-awesome.css') }}" rel="stylesheet">
@@ -116,7 +130,7 @@
                                 </div>
                             </nav>
                         </aside>
-                        <aside class="col-md-2"><a href="" class="education-logo"><img src="{{ asset('img/alt-rh-logo.png')}}" alt=""></a></aside>
+                        <aside class="col-md-2"><a href="{{ path('index') }}" class="education-logo"><img src="{{ asset('img/alt-rh-logo.png')}}" alt=""></a></aside>
                         <aside class="col-md-5">
                             <nav class="navbar navbar-default">
                                 <div class="navbar-header">
@@ -215,194 +229,125 @@
 
             <!--// Main Section \\-->
          
-            <div class="education-main-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="education-subscribe-newsletter">
-                                <img src="{{ asset('template/extra-images/news-latter-img.jpg') }}" alt="">
-                                <div class="education-newslatter-text">
-                                    <h2>Subscribe To Our Newsletter</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat ipsum maximus malesuada. Donec non ex faucibus, fringilla tellus eget, maximus arcu. Duis et eros nisl.</p>
-                                    <form>
-                                        <input type="text" value="Type Here" onblur="if(this.value == '') { this.value ='Type Here'; }" onfocus="if(this.value =='Type Here') { this.value = ''; }">
-                                        <label><input type="submit" value="Subscribe Now"></label>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
             <!--// Main Section \\-->
 
         </div>
         <!--// Main Content \\-->
 
-        <!--// Footer \\-->
-        <footer id="education-footer" class="education-footer-one">
-            <span class="education-footer-pattren"></span>
-            
-            <!--// Footer Widget \\-->
-            <div class="education-footer-widget">
-                <div class="container">
-                    <div class="row">
-                        <!--// Widget Contact Info \\-->
-                        <aside class="col-md-4 widget widget_contact_info">
-                            <a href="index.html" class="education-footer-logo"><img src="{{ asset('template/images/footer-logo.png') }}" alt=""></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat urna non ipsum maxim us malesuada.</p>
-                            <ul>
-                                <li><i class="education-color fa fa-home"></i> 195 Cooks Mine Road Espa nola, NM 87532</li>
-                                <li><i class="education-color fa fa-phone"></i> +123 45 678 - 00 913 2245 <br>678</li>
-                                <li><i class="education-color fa fa-envelope"></i> <a href="mailto:name@email.com">info@example.com - </a> <a href="mailto:name@email.com">example@abc.com</a></li>
-                            </ul>
-                        </aside>
-                        <!--// Widget Contact Info \\-->
-                        <!--// Widget Featured Courses \\-->
-                        <aside class="col-md-4 widget widget_featured_courses">
-                            <div class="education-footer-title"> <h4>Featured Courses</h4> </div>
-                            <ul>
-                                <li>
-                                    <figure><a href="course-detail.html"><img src="{{ asset('template/extra-images/widget-featured-courses-1.jpg') }}" alt=""></a>
-                                        <figcaption>
-                                            <h6><a href="course-detail.html">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
-                                            <div class="star-rating"><span class="star-rating-box" style="width:54%"></span></div>
-                                            <small>( 12 Reviews )</small>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure><a href="course-detail.html"><img src="{{ asset('template/extra-images/widget-featured-courses-2.jpg') }}" alt=""></a>
-                                        <figcaption>
-                                            <h6><a href="course-detail.html">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
-                                            <div class="star-rating"><span class="star-rating-box" style="width:34%"></span></div>
-                                            <small>( 12 Reviews )</small>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure><a href="course-detail.html"><img src="{{ asset('template/extra-images/widget-featured-courses-3.jpg') }}" alt=""></a>
-                                        <figcaption>
-                                            <h6><a href="course-detail.html">Lorem ipsum dolor sit amet, cons scing elit. Praesent.</a></h6>
-                                            <div class="star-rating"><span class="star-rating-box" style="width:85%"></span></div>
-                                            <small>( 12 Reviews )</small>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                            </ul>
-                        </aside>
-                        <!--// Widget Featured Courses \\-->
-                        <!--// Widget Gallery \\-->
-                        <aside class="col-md-4 widget widget_gallery">
-                            <div class="education-footer-title"> <h4>Flicker Images</h4> </div>
-                            <ul>
-                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-1.jpg" class="fancybox"><img src="{{ asset('template/extra-images/widget-gallery-1.jpg') }}" alt=""></a></li>
-                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-2.jpg" class="fancybox"><img src="{{ asset('template/extra-images/widget-gallery-2.jpg') }}" alt=""></a></li>
-                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-3.jpg" class="fancybox"><img src="{{ asset('template/extra-images/widget-gallery-3.jpg') }}" alt=""></a></li>
-                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-4.jpg" class="fancybox"><img src="{{ asset('template/extra-images/widget-gallery-4.jpg') }}" alt=""></a></li>
-                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-5.jpg" class="fancybox"><img src="{{ asset('template/extra-images/widget-gallery-5.jpg') }}" alt=""></a></li>
-                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-6.jpg" class="fancybox"><img src="{{ asset('template/extra-images/widget-gallery-6.jpg') }}" alt=""></a></li>
-                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-7.jpg" class="fancybox"><img src="{{ asset('template/extra-images/widget-gallery-7.jpg') }}" alt=""></a></li>
-                                <li><a data-fancybox-group="group" href="extra-images/widget-gallery-8.jpg" class="fancybox"><img src="{{ asset('template/extra-images/widget-gallery-8.jpg') }}" alt=""></a></li>
-                            </ul>
-                        </aside>
-                        <!--// Widget Gallery \\-->
-                    </div>
-                </div>
-            </div>
-            <!--// Footer Widget \\-->
-
-            <!--// CopyRight \\-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="education-copyright">
-                            <p>© 2017, All Right Reserved - by <a href="index.html">EyeCix</a></p>
-                            <ul>
-                                <li><a href="404.html">Privacy</a></li>
-                                <li><a href="404.html">Terms</a></li>
-                                <li><a href="404.html">Sitemap</a></li>
-                                <li><a href="404.html">Purchase</a></li>
-                            </ul>
-                            <a href="#" class="education-back-top"><i class="fa fa-angle-up"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// CopyRight \\-->
-
-        </footer>
-        <!--// Footer \\-->
-
-        <!--// Footer Parallax \\-->
-      <!--  <div class="education-parallax">
-            <span class="education-footer-pattren"></span>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Get the Coaching Training for Free</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et elementum nulla, eu placerat felis. Etiam tincidunt orci lacus, id varius.</p> <br>
-                        <a href="#">Get Started Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-        <!--// Footer Parallax \\-->
-
-    <div class="clearfix"></div>
-    </div>
-    <!--// Main Wrapper \\-->
-
-    <!-- LoginModal -->
-    <div class="loginmodal modal fade" id="loginModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="education-login-box">
-                <a href="#" data-dismiss="modal" class="education-login-close"><i class="icon-uniF106"></i></a>
-                <h4>Login To Your Account</h4>
-                <form>
-                    <input type="text" value="Enter username*" onblur="if(this.value == '') { this.value ='Enter username*'; }" onfocus="if(this.value =='Enter username*') { this.value = ''; }">
-                    <input type="password" value="Password*" onblur="if(this.value == '') { this.value ='Password*'; }" onfocus="if(this.value =='Password*') { this.value = ''; }">
-                    <a href="#">Forget Password?</a>
-                    <div class="clearfix"></div>
-                    <label><input type="submit" value="Sign In"></label>
-                </form>
-                <h4>Try Our Socials Also</h4>
-                <ul class="login-network">
-                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                    <li class="education-twitter"><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-                    <li class="education-google-plus"><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
-                </ul>
-                <p>Not A Member Yet ? <a href="#" class="education-color">Sign - Up Now !</a></p>
-            </div>
-        <div class="clearfix"></div>
-        </div>
-    </div>
-
-    <!-- SignupModal -->
-    <div class="loginmodal modal fade" id="signupModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="education-login-box">
-                <a href="#" data-dismiss="modal" class="education-login-close education-color"><i class="icon-uniF106"></i></a>
-                <h4>Sign Up Now</h4>
-                <form>
-                    <input type="text" value="Enter username*" onblur="if(this.value == '') { this.value ='Enter username*'; }" onfocus="if(this.value =='Enter username*') { this.value = ''; }">
-                    <input type="text" value="Type your password*" onblur="if(this.value == '') { this.value ='Type your password*'; }" onfocus="if(this.value =='Type your password*') { this.value = ''; }">
-                    <input type="text" value="Confirm your password*" onblur="if(this.value == '') { this.value ='Confirm your password*'; }" onfocus="if(this.value =='Confirm your password*') { this.value = ''; }">
-                    <a href="#">Forget Password?</a>
-                    <div class="clearfix"></div>
-                    <label><input type="submit" value="Sign Up"></label>
-                </form>
-                <h4>Try Our Socials Also</h4>
-                <ul class="login-network">
-                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                    <li class="education-twitter"><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-                    <li class="education-google-plus"><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
-                </ul>
-                <p>Not A Member Yet ? <a href="#" class="education-color">Login - Now !</a></p>
-            </div>
-        <div class="clearfix"></div>
-        </div>
-    </div>
+        <!--// Footer \\--> 
+        <footer id="education-footer" class="education-footer-one"> 
+            <span class="education-footer-pattren"></span> 
+             
+            <!--// Footer Widget \\--> 
+            <div class="education-footer-widget"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <!--// Widget Contact Info \\--> 
+                        <aside class="col-md-4 widget widget_contact_info"> 
+                            <a href="{{ path('index') }}" class="education-footer-logo"><img src="{{ asset('img/alt-rh-logo.png') }}" alt=""></a>
+                        </aside> 
+                        <aside class="col-md-4 widget widget_contact_info"> 
+                            <ul> 
+                                <li><i class="education-color fa fa-home"></i>
+                                        ALT RH Consulting
+                                        Tour Ernest & Young  
+                                        9-11 Allée de l'arche 
+                                        92671 Paris La Défense
+                                </li> 
+                                <li><i class="education-color fa fa-phone"></i>01 49 97 15 11</li> 
+                                <li><i class="education-color fa fa-envelope"></i><a href="mailto:name@email.com">contact@alt-rh.com</a></li> 
+                            </ul> 
+                        </aside> 
+                        <!--// Widget Contact Info \\--> 
+                        <!--// Widget Gallery \\--> 
+                        <aside class="col-md-4 widget widget_gallery"> 
+                            <div class="education-footer-title"> <h4>Réseaux Sociaux</h4> </div> 
+                            <ul> 
+                                <li><a data-fancybox-group="group" href="https://www.facebook.com/altrhconsulting" id="imgbox1" class="fancybox"><img src="{{ asset('img/icons/facebook.png') }}" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="https://twitter.com/altrhconsulting" id="imgbox2" class="fancybox"><img src="{{ asset('img/icons/twitter.png') }}" alt=""></a></li> 
+                                <li><a data-fancybox-group="group" href="https://plus.google.com/altrhconsulting" id="imgbox3" class="fancybox"><img src="{{ asset('img/icons/googleplus.png') }}" alt=""></a></li> 
+                            </ul> 
+                        </aside> 
+                        <!--// Widget Gallery \\--> 
+                    </div> 
+                </div> 
+            </div> 
+            <!--// Footer Widget \\--> 
+ 
+            <!--// CopyRight \\--> 
+            <div class="container"> 
+                <div class="row"> 
+                    <div class="col-md-12"> 
+                        <div class="education-copyright"> 
+                            <p>PROJECT ALT-RH CONSULTING© 2017. Tous droits réservés.
+                             <a href="index.html">Project Alt rh</a></p> 
+                            <ul> 
+                                <li><a href="#">Politique de confidentialité</a></li> 
+                                <li><a href="#">Termes</a></li> 
+                                <li><a href="#">Plan du site</a></li> 
+                                <li><a href="#">Achat</a></li> 
+                            </ul> 
+                            <a href="#" class="education-back-top"><i class="fa fa-angle-up"></i></a> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+            <!--// CopyRight \\--> 
+ 
+        </footer> 
+        <!--// Footer \\--> 
+    <!--// Main Wrapper \\--> 
+ 
+    <!-- LoginModal --> 
+    <div class="loginmodal modal fade" id="loginModal" tabindex="-1" role="dialog"> 
+        <div class="modal-dialog" role="document"> 
+            <div class="education-login-box"> 
+                <a href="#" data-dismiss="modal" class="education-login-close"><i class="icon-uniF106"></i></a> 
+                <h4>CONNECTEZ À VOTRE COMPTE</h4> 
+                <form> 
+                    <input type="text" value="Enter username*" onblur="if(this.value == '') { this.value ='Enter username*'; }" onfocus="if(this.value =='Enter username*') { this.value = ''; }"> 
+                    <input type="password" value="Password*" onblur="if(this.value == '') { this.value ='Password*'; }" onfocus="if(this.value =='Password*') { this.value = ''; }"> 
+                    <a href="#">Mot de passe oublié?</a> 
+                    <div class="clearfix"></div> 
+                    <label><input type="submit" value="Sign In"></label> 
+                </form> 
+                <h4>Essayez Socials Network</h4> 
+                <ul class="login-network"> 
+                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li> 
+                    <li class="education-twitter"><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li> 
+                    <li class="education-google-plus"><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li> 
+                </ul> 
+                <p>Pas encore Membre? <a href="#" class="education-color">S'inscrire Maintenant!</a></p> 
+            </div> 
+        <div class="clearfix"></div> 
+        </div> 
+    </div> 
+ 
+    <!-- SignupModal --> 
+    <div class="loginmodal modal fade" id="signupModal" tabindex="-1" role="dialog"> 
+        <div class="modal-dialog" role="document"> 
+            <div class="education-login-box"> 
+                <a href="#" data-dismiss="modal" class="education-login-close education-color"><i class="icon-uniF106"></i></a> 
+                <h4>S'inscrire Maintenant</h4> 
+                <form> 
+                    <input type="text" value="Enter username*" onblur="if(this.value == '') { this.value ='Enter username*'; }" onfocus="if(this.value =='Enter username*') { this.value = ''; }"> 
+                    <input type="text" value="Type your password*" onblur="if(this.value == '') { this.value ='Type your password*'; }" onfocus="if(this.value =='Type your password*') { this.value = ''; }"> 
+                    <input type="text" value="Confirm your password*" onblur="if(this.value == '') { this.value ='Confirm your password*'; }" onfocus="if(this.value =='Confirm your password*') { this.value = ''; }"> 
+                    <a href="#">Mot de passe oublié?</a> 
+                    <div class="clearfix"></div> 
+                    <label><input type="submit" value="Sign Up"></label> 
+                </form> 
+                <h4>Essayez Socials Network</h4> 
+                <ul class="login-network"> 
+                    <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li> 
+                    <li class="education-twitter"><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li> 
+                    <li class="education-google-plus"><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li> 
+                </ul> 
+                <p>Pas encore Membre ? <a href="#" class="education-color">Login - Maintenant !</a></p> 
+            </div> 
+        <div class="clearfix"></div> 
+        </div> 
+    </div> 
 
     <!-- jQuery (necessary for JavaScript plugins) -->
     <script type="text/javascript" src="{{ asset('template/script/jquery.js') }}"></script>
