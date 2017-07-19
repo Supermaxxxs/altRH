@@ -31,6 +31,7 @@
     <link href="{{ asset('template/css/color.css') }}" rel="stylesheet">
     <link href="{{ asset('template/css/responsive.css') }}" rel="stylesheet">
     <link rel="icon" href="{{ asset('img/favico.ico') }}">
+    <link href="{{ asset('https://fonts.googleapis.com/icon?family=Material+Icons') }}" rel="stylesheet">
     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -66,7 +67,7 @@
                                     </div>
                                 </li>
                                 <li> <a href="{{ path('connexion') }} "><i class="fa fa-user"></i>Connexion</a></li>
-                                <li> <a href="#" data-toggle="modal" data-target="#signupModal"><i class="fa fa-sign-in"></i>Deconnexion</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target="#signupModal"><i class="fa fa-sign-in"></i>Deconnexion</a></li>  
                             </ul>
                         </aside>
                     </div>
@@ -164,15 +165,14 @@
                                         <ul class="education-dropdown-menu">
                                             <li><a href={{path('espaceCandiadat')}}>Espace Candidats</a></li>
                                             <li><a href={{path('espaceEntreprise')}}>Espace Entreprise</a></li>
-                                            <li><a href={{path('offreStage')}}>Offres d'emploi et stages</a></li>
                                             <li><a href={{path('conseilCoach')}}>Conseils du coach</a></li>
                                             <li><a href={{path('engagementEmploi')}}>Nos engagements</a></li>
                                         </ul>
                                     </li>
                                     <li><a href={{path('contact')}}>CONTACT</a>
                                         <ul class="education-dropdown-menu">
-                                            <li><a href="contact/nos-implantations">Nos implantations</a></li>
-                                            <li><a href="contact/nous-contacter">Nous contacter</a></li>
+                                            <li><a href={{path('nosImplantations')}}>Nos implantations</a></li>
+                                            <li><a href={{path('nousContacter')}}>Nous contacter</a></li>
                                         </ul>
                                     </li> 
                                   </ul>
