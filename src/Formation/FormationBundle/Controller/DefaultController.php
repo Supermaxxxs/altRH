@@ -4,11 +4,13 @@ namespace Formation\FormationBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\HttpFoundation\Session\Session;
+
 
 class DefaultController extends Controller
 {
     /**
-     * @Route("/index", name="index")
+     * @Route("/", name="index")
      */
     public function indexAction()
     {
@@ -354,7 +356,7 @@ class DefaultController extends Controller
         return $this->render('FormationBundle:Default:contact.html.twig');
     }
     /**
-     * @Route("/contact/nos-implantations")
+     * @Route("/contact/nos-implantations", name="nosImplantations")
      */
 
     public function nosImplantationsAction()
@@ -362,7 +364,7 @@ class DefaultController extends Controller
         return $this->render('FormationBundle:Default:nos-implantations.html.twig');
     }
     /**
-     * @Route("/contact/nous-contacter")
+     * @Route("/contact/nous-contacter" , name="nousContacter")
      */
 
     public function nousContacterAction()

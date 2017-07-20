@@ -1,0 +1,65 @@
+
+
+{% extends "::base.html.twig" %}
+{% block title %}Page d'administration{% endblock %}
+{% block body %}
+
+<div class="container-fluid">
+<div class="panel panel-info" style="margin-top:20px;">
+<div class="panel-heading" >
+<div class="panel-title">
+<div class="input-group">
+<div class="input-group-addon">
+
+</div>
+</div>
+</div>
+<div class="panel-body">
+<div class="row">
+			<table class="table">
+				<tr>
+					<th class="col-sm-1">
+						<span class="glyphicon glyphicon-user"></span>
+					</th>
+					<th class="col-sm-1">
+						Image
+					</th>
+					<th class="col-sm-1">
+						Nom
+					</th>
+					<th class="col-sm-1">
+						Prenom
+					</th>
+					<th class="col-sm-1">
+						Inscription
+					</th>
+					<th class="col-sm-1">
+						<span class="glyphicon glyphicon-envelope"></span> E-mail
+					</th>
+					<th class="col-sm-1">
+						<span class="glyphicon glyphicon-phone"></span> Téléphone
+					</th>
+					<th class="col-sm-1">
+						Validation inscription
+					</th>
+					<th class="col-sm-1">
+						<span class="glyphicon glyphicon-trash"></span> Refus Inscription
+					</th>
+				</tr>
+
+{% for personne in listePersonne %}
+
+<tr><td>{{personne.id}}</td><td class="col-sm-1"><img src="{{ asset(personne.photo)}}" width="40px" height="40px"/></td><td>{{personne.nom}}</td><td>{{personne.prenom}}</td><td>En cours</td><td><a href="#">{{personne.mail}}</a></td><td>{{personne.telephone }}</td><td><a class="text-success" href="#"><span class="glyphicon glyphicon-ok"></span></a></td><td><a class="text-danger" href="#"><span class="glyphicon glyphicon-remove"></span></a></td></tr>
+
+{% endfor %}
+
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
+
+{% endblock %}

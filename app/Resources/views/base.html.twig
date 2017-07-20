@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>{% block title %}{% endblock %}</title>
-<style>
-#imgbox1
-{
-    width:50px;
-}
-#imgbox2
-{
-    padding-top:10px;
-    width:50px;
-}
-#imgbox3
-{
-    width:50px;
-}
-</style>
+    <style>
+    #imgbox1
+    {
+        width:50px;
+    }
+    #imgbox2
+    {
+        padding-top:10px;
+        width:50px;
+    }
+    #imgbox3
+    {
+        width:50px;
+    }
+    </style>
     <!-- Css Files -->
     <link href="{{ asset('template/css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('template/css/font-awesome.css') }}" rel="stylesheet">
@@ -32,7 +32,6 @@
     <link href="{{ asset('template/css/responsive.css') }}" rel="stylesheet">
     <link rel="icon" href="{{ asset('img/favico.ico') }}">
     <link href="{{ asset('https://fonts.googleapis.com/icon?family=Material+Icons') }}" rel="stylesheet">
-    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,7 +66,7 @@
                                     </div>
                                 </li>
                                 <li> <a href="{{ path('connexion') }} "><i class="fa fa-user"></i>Connexion</a></li>
-                                    <li><a href="#" data-toggle="modal" data-target="#signupModal"><i class="fa fa-sign-in"></i>Deconnexion</a></li>  
+                                <li><a href="{{ path('deconnexion')}}" data-toggle="modal"><i class="fa fa-sign-in"></i>Deconnexion</a></li>
                             </ul>
                         </aside>
                     </div>
@@ -101,7 +100,7 @@
                                         </ul>
 
                                     </li>
-                                    <li><a href="formations">FORMATIONS</a>
+                                    <li><a href="#">FORMATIONS</a>
                                         <ul class="education-dropdown-menu">
                                             <li><a href={{path('formation')}}>Informatique</a>
                                                 <ul class="education-dropdown-menu">
@@ -153,7 +152,7 @@
                                             <li><a href={{path('creationActivHandicap')}}>Création d'activité handicap</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href={{path('recrutement')}}>RECRUTEMENT</a>
+                                    <li><a href="#">RECRUTEMENT</a>
                                         <ul class="education-dropdown-menu">
                                             <li><a href={{path('RecrutMetho')}}>Méthodologie</a></li>
                                             <li><a href={{path('prestRecrutement')}}>Prestations de recrutement</a></li>
@@ -186,7 +185,6 @@
 
         </header>
         <!--// Header \\-->
-
 {% block body %}{% endblock %}
 
             <!--PARTENAIRES-->

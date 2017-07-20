@@ -112,18 +112,27 @@ class GestionPersonneController extends Controller
         $form->handleRequest($request);
         if($form->isValid()){
             $personne->setMdp(md5($personne->getMdp()));
-           
-            $personne->setEstAdmin(false);
+            $personne->setEstAdmin(0);
             $em=$this->getDoctrine()->getManager();
             $em->persist($personne);
             $em->flush();
-            return $this->redirectToRoute('gestionCarriere', array(
+            return $this->redirectToRoute('index', array(
             // ...
         ));
 
         }
 
         return $this->render('FormationBundle:GestionPersonne:inserer_personne.html.twig', array('form' => $form->createView(),
+            // ...
+        ));
+    }
+    /**
+     * @Route("/deconnexion", name="deconnexion")
+     */
+    public function DeconnexionAction(Request $request)
+    {
+        //code
+        return $this->redirectToRoute('index', array(
             // ...
         ));
     }

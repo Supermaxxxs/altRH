@@ -10,4 +10,13 @@ namespace Formation\FormationBundle\Repository;
  */
 class PersonneRepository extends \Doctrine\ORM\EntityRepository
 {
+	public function findSortedByName(){
+		return $this->createQueryBuilder('p')
+		->select('p')
+		->orderBy('p.nom', 'ASC')
+		->getQuery()
+		->getResult();
+
+
+	}
 }
